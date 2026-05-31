@@ -11,12 +11,6 @@
     "city": "Medina",
     "followers": [
       {
-        "username": "jafar",
-        "pfpUrl": "cookie.jpg",
-        "bio": "Coffee addict ☕ | Traveler 🌍 | Building things one day at a time",
-        "city": "Medina"
-      },
-      {
         "username": "Feras",
         "pfpUrl": "sunFlower.jpg",
         "bio": "Just vibing 🎧 | CS student | Gamer by night",
@@ -30,12 +24,6 @@
       }
     ],
     "following": [
-      {
-        "username": "jafar",
-        "pfpUrl": "cookie.jpg",
-        "bio": "Coffee addict ☕ | Traveler 🌍 | Building things one day at a time",
-        "city": "Medina"
-      },
       {
         "username": "Ziyad",
         "pfpUrl": "cookie.jpg",
@@ -56,16 +44,91 @@
       }
     ],
     "posts": [
-      { "media": "sunnyDay.jpg", "likes": 1203 },
-      { "media": "desert.jpg", "likes": 874 },
-      { "media": "rainnyCar.jpg", "likes": 302 },
-      { "media": "sunFlower.jpg", "likes": 511 },
-      { "media": "carbet.jpg", "likes": 98 },
-      { "media": "rainnyCar.jpg", "likes": 430 },
-      { "media": "sunFlower.jpg", "likes": 760 },
-      { "media": "sunnyDay.jpg", "likes": 215 },
-      { "media": "desert.jpg", "likes": 990 },
-      { "media": "carbet.jpg", "likes": 133 }
+      {
+        "id": "post_jafar_1",
+        "username": "jafar",
+        "media": "sunnyDay.jpg",
+        "description": "Beautiful sunny day in Medina ☀️ Nothing beats this view!",
+        "likes": 1203,
+        "createdAt": "2025-11-01T08:30:00.000Z",
+        "comments": [
+          { "username": "Hussam", "content": "Stunning shot! 😍", "replies": 2, "likes": 45 },
+          { "username": "Huda", "content": "Love the lighting here!", "replies": 1, "likes": 30 },
+          { "username": "Abdullah", "content": "Takes me back home 🕌", "replies": 0, "likes": 18 }
+        ]
+      },
+      {
+        "id": "post_jafar_2",
+        "username": "jafar",
+        "media": "desert.jpg",
+        "description": "Lost in the dunes 🏜️ The silence out here is unreal.",
+        "likes": 874,
+        "createdAt": "2025-11-05T15:00:00.000Z",
+        "comments": [
+          {
+            "username": "Feras",
+            "content": "Bro this looks like a movie scene 🎬",
+            "replies": 3,
+            "likes": 60
+          },
+          {
+            "username": "Kevin",
+            "content": "We need a road trip here ASAP",
+            "replies": 2,
+            "likes": 22
+          }
+        ]
+      },
+      {
+        "id": "post_jafar_3",
+        "username": "jafar",
+        "media": "rainnyCar.jpg",
+        "description": "Rainy drives and good music 🎵 Perfect combo.",
+        "likes": 302,
+        "createdAt": "2025-11-10T19:45:00.000Z",
+        "comments": [
+          { "username": "adam", "content": "The vibe is immaculate ✨", "replies": 1, "likes": 14 },
+          {
+            "username": "Ziyad",
+            "content": "This could be a wallpaper honestly",
+            "replies": 0,
+            "likes": 9
+          }
+        ]
+      },
+      {
+        "id": "post_jafar_4",
+        "username": "jafar",
+        "media": "sunFlower.jpg",
+        "description": "Sunflower fields always make me smile 🌻",
+        "likes": 511,
+        "createdAt": "2025-11-15T10:00:00.000Z",
+        "comments": [
+          {
+            "username": "Huda",
+            "content": "So beautiful! Nature is art 🌿",
+            "replies": 2,
+            "likes": 37
+          },
+          {
+            "username": "Abdullah",
+            "content": "Jealous of this view 😂",
+            "replies": 1,
+            "likes": 20
+          }
+        ]
+      },
+      {
+        "id": "post_jafar_5",
+        "username": "jafar",
+        "media": "carbet.jpg",
+        "description": "Carpet shopping in the old market 🛒 These patterns are insane.",
+        "likes": 98,
+        "createdAt": "2025-11-20T14:30:00.000Z",
+        "comments": [
+          { "username": "Hussam", "content": "Did you cop one?? 👀", "replies": 1, "likes": 8 }
+        ]
+      }
     ]
   },
   {
@@ -74,11 +137,15 @@
     "email": "hussam@mail.com",
     "password": "hussam123",
     "pfpUrl": "snowflake.webp",
+    "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
+    "dateOfBirth": "1998-03-22T00:00:00.000Z",
+    "gender": "M",
+    "city": "Riyadh",
     "followers": [
       {
         "username": "jafar",
         "pfpUrl": "cookie.jpg",
-        "bio": "Coffee addict ☕ | Traveler 🌍 | Building things one day at a time",
+        "bio": "Coffee lover ☕ | Traveler 🌍 | Building things one day at a time",
         "city": "Medina"
       },
       {
@@ -98,7 +165,7 @@
       {
         "username": "jafar",
         "pfpUrl": "cookie.jpg",
-        "bio": "Coffee addict ☕ | Traveler 🌍 | Building things one day at a time",
+        "bio": "Coffee lover ☕ | Traveler 🌍 | Building things one day at a time",
         "city": "Medina"
       },
       {
@@ -120,19 +187,68 @@
         "city": "Khobar"
       }
     ],
-    "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
-    "dateOfBirth": "1998-03-22T00:00:00.000Z",
-    "gender": "M",
-    "city": "Riyadh",
     "posts": [
-      { "media": "desert.jpg", "likes": 4502 },
-      { "media": "sunnyDay.jpg", "likes": 2100 },
-      { "media": "carbet.jpg", "likes": 88 },
-      { "media": "rainnyCar.jpg", "likes": 630 },
-      { "media": "sunFlower.jpg", "likes": 371 },
-      { "media": "desert.jpg", "likes": 1820 },
-      { "media": "sunnyDay.jpg", "likes": 905 },
-      { "media": "carbet.jpg", "likes": 44 }
+      {
+        "id": "post_hussam_1",
+        "username": "Hussam",
+        "media": "desert.jpg",
+        "description": "Golden hour in the desert never gets old 📷 #Photography",
+        "likes": 4502,
+        "createdAt": "2025-10-18T17:30:00.000Z",
+        "comments": [
+          { "username": "jafar", "content": "Your best shot yet 🔥", "replies": 3, "likes": 120 },
+          {
+            "username": "Ziyad",
+            "content": "Incredible composition bro",
+            "replies": 2,
+            "likes": 95
+          },
+          {
+            "username": "Abdullah",
+            "content": "The colors are everything 😍",
+            "replies": 1,
+            "likes": 44
+          }
+        ]
+      },
+      {
+        "id": "post_hussam_2",
+        "username": "Hussam",
+        "media": "sunnyDay.jpg",
+        "description": "Morning light is a different kind of magic ✨",
+        "likes": 2100,
+        "createdAt": "2025-10-25T07:00:00.000Z",
+        "comments": [
+          {
+            "username": "Huda",
+            "content": "I could stare at this all day 😌",
+            "replies": 1,
+            "likes": 55
+          },
+          {
+            "username": "Feras",
+            "content": "Wake me up at this time challenge 😭",
+            "replies": 0,
+            "likes": 31
+          }
+        ]
+      },
+      {
+        "id": "post_hussam_3",
+        "username": "Hussam",
+        "media": "carbet.jpg",
+        "description": "Texture and pattern study 👁️ Found this in the old souk.",
+        "likes": 88,
+        "createdAt": "2025-11-02T12:00:00.000Z",
+        "comments": [
+          {
+            "username": "adam",
+            "content": "Love the framing on this one",
+            "replies": 0,
+            "likes": 7
+          }
+        ]
+      }
     ]
   },
   {
@@ -141,11 +257,16 @@
     "email": "huda@mail.com",
     "password": "huda456",
     "pfpUrl": "carbet.jpg",
+    "bio": "Interior designer 🏡 | Bringing spaces to life | DM for collabs",
+    "dateOfBirth": "1993-11-05T00:00:00.000Z",
+    "gender": "F",
+    "city": "Jeddah",
+    "accountType": "business",
     "followers": [
       {
         "username": "jafar",
         "pfpUrl": "cookie.jpg",
-        "bio": "Coffee addict ☕ | Traveler 🌍 | Building things one day at a time",
+        "bio": "Coffee lover ☕ | Traveler 🌍 | Building things one day at a time",
         "city": "Medina"
       },
       {
@@ -187,24 +308,91 @@
         "city": "Khobar"
       }
     ],
-    "bio": "Interior designer 🏡 | Bringing spaces to life | DM for collabs",
-    "dateOfBirth": "1993-11-05T00:00:00.000Z",
-    "gender": "F",
-    "city": "Jeddah",
-    "accountType": "business",
     "posts": [
-      { "media": "carbet.jpg", "likes": 9800 },
-      { "media": "sunFlower.jpg", "likes": 7420 },
-      { "media": "sunnyDay.jpg", "likes": 6100 },
-      { "media": "desert.jpg", "likes": 4300 },
-      { "media": "rainnyCar.jpg", "likes": 3210 },
-      { "media": "carbet.jpg", "likes": 5500 },
-      { "media": "sunFlower.jpg", "likes": 8800 },
-      { "media": "sunnyDay.jpg", "likes": 2900 },
-      { "media": "carbet.jpg", "likes": 4100 },
-      { "media": "desert.jpg", "likes": 6700 },
-      { "media": "rainnyCar.jpg", "likes": 3900 },
-      { "media": "sunFlower.jpg", "likes": 5100 }
+      {
+        "id": "post_huda_1",
+        "username": "Huda",
+        "media": "carbet.jpg",
+        "description": "New project reveal 🏡 Went for warm earthy tones this time. Thoughts?",
+        "likes": 9800,
+        "createdAt": "2025-10-05T11:00:00.000Z",
+        "comments": [
+          {
+            "username": "jafar",
+            "content": "This is absolutely gorgeous 😍",
+            "replies": 2,
+            "likes": 310
+          },
+          {
+            "username": "Ziyad",
+            "content": "DM incoming for a project 😂",
+            "replies": 1,
+            "likes": 275
+          },
+          {
+            "username": "Abdullah",
+            "content": "Can you design my room please 🙏",
+            "replies": 3,
+            "likes": 190
+          },
+          {
+            "username": "Kevin",
+            "content": "The texture choice is *chef's kiss*",
+            "replies": 0,
+            "likes": 145
+          }
+        ]
+      },
+      {
+        "id": "post_huda_2",
+        "username": "Huda",
+        "media": "sunFlower.jpg",
+        "description": "Adding life to spaces with plants 🌿 Never underestimate greenery in your home.",
+        "likes": 7420,
+        "createdAt": "2025-10-12T09:30:00.000Z",
+        "comments": [
+          {
+            "username": "Hussam",
+            "content": "The photography here is also top tier 📷",
+            "replies": 2,
+            "likes": 200
+          },
+          {
+            "username": "adam",
+            "content": "Sold. I'm buying plants tomorrow 😂",
+            "replies": 1,
+            "likes": 180
+          },
+          {
+            "username": "Feras",
+            "content": "Interior goals honestly 🔥",
+            "replies": 0,
+            "likes": 95
+          }
+        ]
+      },
+      {
+        "id": "post_huda_3",
+        "username": "Huda",
+        "media": "sunnyDay.jpg",
+        "description": "Natural light is every designer's best friend ☀️",
+        "likes": 6100,
+        "createdAt": "2025-10-20T13:00:00.000Z",
+        "comments": [
+          {
+            "username": "jafar",
+            "content": "This would be a dream office space",
+            "replies": 1,
+            "likes": 155
+          },
+          {
+            "username": "Ziyad",
+            "content": "Productivity would be immense here 💻",
+            "replies": 2,
+            "likes": 130
+          }
+        ]
+      }
     ]
   },
   {
@@ -213,6 +401,10 @@
     "email": "feras@mail.com",
     "password": "feras789",
     "pfpUrl": "sunFlower.jpg",
+    "bio": "Just vibing 🎧 | CS student | Gamer by night",
+    "dateOfBirth": "2001-07-30T00:00:00.000Z",
+    "gender": "M",
+    "city": "Mecca",
     "followers": [
       {
         "username": "adam",
@@ -253,17 +445,73 @@
         "city": "Dubai"
       }
     ],
-    "bio": "Just vibing 🎧 | CS student | Gamer by night",
-    "dateOfBirth": "2001-07-30T00:00:00.000Z",
-    "gender": "M",
-    "city": "Mecca",
     "posts": [
-      { "media": "sunnyDay.jpg", "likes": 42 },
-      { "media": "desert.jpg", "likes": 178 },
-      { "media": "rainnyCar.jpg", "likes": 65 },
-      { "media": "sunFlower.jpg", "likes": 210 },
-      { "media": "carbet.jpg", "likes": 33 },
-      { "media": "rainnyCar.jpg", "likes": 88 }
+      {
+        "id": "post_feras_1",
+        "username": "Feras",
+        "media": "sunnyDay.jpg",
+        "description": "Studied outside today for a change ☀️ Highly recommend 10/10",
+        "likes": 42,
+        "createdAt": "2025-11-08T10:15:00.000Z",
+        "comments": [
+          {
+            "username": "adam",
+            "content": "Bro actually touched grass 😭",
+            "replies": 2,
+            "likes": 15
+          },
+          {
+            "username": "Kevin",
+            "content": "Who are you and what did you do to Feras",
+            "replies": 1,
+            "likes": 12
+          }
+        ]
+      },
+      {
+        "id": "post_feras_2",
+        "username": "Feras",
+        "media": "desert.jpg",
+        "description": "Weekend escape 🏜️ No wifi, no stress. Just vibes.",
+        "likes": 178,
+        "createdAt": "2025-11-14T16:00:00.000Z",
+        "comments": [
+          {
+            "username": "jafar",
+            "content": "You're living my dream life rn",
+            "replies": 1,
+            "likes": 28
+          },
+          {
+            "username": "Hussam",
+            "content": "The shot is actually not bad 👀",
+            "replies": 0,
+            "likes": 19
+          }
+        ]
+      },
+      {
+        "id": "post_feras_3",
+        "username": "Feras",
+        "media": "sunFlower.jpg",
+        "description": "My sister made me take this photo 🌻 She said post it so here you go",
+        "likes": 210,
+        "createdAt": "2025-11-18T12:30:00.000Z",
+        "comments": [
+          {
+            "username": "Huda",
+            "content": "Tell your sister she has great taste 😂",
+            "replies": 2,
+            "likes": 40
+          },
+          {
+            "username": "Abdullah",
+            "content": "Bro actually got a good one accidentally",
+            "replies": 0,
+            "likes": 22
+          }
+        ]
+      }
     ]
   },
   {
@@ -272,11 +520,15 @@
     "email": "kevin@mail.com",
     "password": "kevin321",
     "pfpUrl": "defaultAvatar.jpg",
+    "bio": "Football ⚽ | Fitness 💪 | Al-Hilal fan till I die 💙💙",
+    "dateOfBirth": "1997-01-18T00:00:00.000Z",
+    "gender": "M",
+    "city": "Riyadh",
     "followers": [
       {
         "username": "jafar",
         "pfpUrl": "cookie.jpg",
-        "bio": "Coffee addict ☕ | Traveler 🌍 | Building things one day at a time",
+        "bio": "Coffee lover ☕ | Traveler 🌍 | Building things one day at a time",
         "city": "Medina"
       },
       {
@@ -318,20 +570,64 @@
         "city": "Mecca"
       }
     ],
-    "bio": "Football ⚽ | Fitness 💪 | Al-Hilal fan till I die 💙💙",
-    "dateOfBirth": "1997-01-18T00:00:00.000Z",
-    "gender": "M",
-    "city": "Riyadh",
     "posts": [
-      { "media": "sunnyDay.jpg", "likes": 3200 },
-      { "media": "desert.jpg", "likes": 1540 },
-      { "media": "rainnyCar.jpg", "likes": 780 },
-      { "media": "sunFlower.jpg", "likes": 2100 },
-      { "media": "carbet.jpg", "likes": 450 },
-      { "media": "sunnyDay.jpg", "likes": 1900 },
-      { "media": "desert.jpg", "likes": 670 },
-      { "media": "rainnyCar.jpg", "likes": 1300 },
-      { "media": "carbet.jpg", "likes": 980 }
+      {
+        "id": "post_kevin_1",
+        "username": "Kevin",
+        "media": "sunnyDay.jpg",
+        "description": "Match day in Riyadh 💙 Al-Hilal never disappoints! #Hilal",
+        "likes": 3200,
+        "createdAt": "2025-10-22T20:00:00.000Z",
+        "comments": [
+          { "username": "jafar", "content": "LFG!! 💙💙", "replies": 1, "likes": 88 },
+          {
+            "username": "Hussam",
+            "content": "Atmosphere must've been insane",
+            "replies": 2,
+            "likes": 64
+          },
+          { "username": "Feras", "content": "I was there too bro 🔥", "replies": 3, "likes": 55 }
+        ]
+      },
+      {
+        "id": "post_kevin_2",
+        "username": "Kevin",
+        "media": "desert.jpg",
+        "description": "Morning run at 5am hits different when the view is like this 🏃‍♂️",
+        "likes": 1540,
+        "createdAt": "2025-10-28T05:30:00.000Z",
+        "comments": [
+          {
+            "username": "adam",
+            "content": "Respect for that 5am energy 💪",
+            "replies": 0,
+            "likes": 42
+          },
+          {
+            "username": "Abdullah",
+            "content": "Not me struggling at 8am 😭",
+            "replies": 1,
+            "likes": 35
+          }
+        ]
+      },
+      {
+        "id": "post_kevin_3",
+        "username": "Kevin",
+        "media": "rainnyCar.jpg",
+        "description": "Rain in Riyadh is a whole event 🌧️ Everyone loses their minds lol",
+        "likes": 780,
+        "createdAt": "2025-11-03T18:00:00.000Z",
+        "comments": [
+          {
+            "username": "Ziyad",
+            "content": "Riyadh people seeing one drop of rain 😂",
+            "replies": 2,
+            "likes": 110
+          },
+          { "username": "jafar", "content": "Same in Medina ngl 💀", "replies": 1, "likes": 75 }
+        ]
+      }
     ]
   },
   {
@@ -340,6 +636,10 @@
     "email": "abdullah@mail.com",
     "password": "abd2024",
     "pfpUrl": "defaultAvatar.jpg",
+    "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
+    "dateOfBirth": "1999-09-09T00:00:00.000Z",
+    "gender": "M",
+    "city": "Medina",
     "followers": [
       {
         "username": "Feras",
@@ -358,7 +658,7 @@
       {
         "username": "jafar",
         "pfpUrl": "cookie.jpg",
-        "bio": "Coffee addict ☕ | Traveler 🌍 | Building things one day at a time",
+        "bio": "Coffee lover ☕ | Traveler 🌍 | Building things one day at a time",
         "city": "Medina"
       },
       {
@@ -380,18 +680,57 @@
         "city": "Dubai"
       }
     ],
-    "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
-    "dateOfBirth": "1999-09-09T00:00:00.000Z",
-    "gender": "M",
-    "city": "Medina",
     "posts": [
-      { "media": "sunnyDay.jpg", "likes": 120 },
-      { "media": "desert.jpg", "likes": 340 },
-      { "media": "rainnyCar.jpg", "likes": 88 },
-      { "media": "sunFlower.jpg", "likes": 215 },
-      { "media": "carbet.jpg", "likes": 60 },
-      { "media": "sunnyDay.jpg", "likes": 400 },
-      { "media": "desert.jpg", "likes": 175 }
+      {
+        "id": "post_abdullah_1",
+        "username": "Abdullah",
+        "media": "sunnyDay.jpg",
+        "description": "Homemade kabsa today 🍚 Recipe in bio. You're welcome.",
+        "likes": 120,
+        "createdAt": "2025-11-06T13:00:00.000Z",
+        "comments": [
+          {
+            "username": "jafar",
+            "content": "Bro send me some please 😭",
+            "replies": 1,
+            "likes": 22
+          },
+          {
+            "username": "Kevin",
+            "content": "The recipe BETTER be in bio 👀",
+            "replies": 0,
+            "likes": 18
+          },
+          {
+            "username": "Feras",
+            "content": "This looks too good to be homemade ngl",
+            "replies": 1,
+            "likes": 14
+          }
+        ]
+      },
+      {
+        "id": "post_abdullah_2",
+        "username": "Abdullah",
+        "media": "desert.jpg",
+        "description": "Quick trip outside Medina 🏜️ The sky was unreal today.",
+        "likes": 340,
+        "createdAt": "2025-11-11T16:45:00.000Z",
+        "comments": [
+          {
+            "username": "Hussam",
+            "content": "Nice shot! Keep practicing 📷",
+            "replies": 1,
+            "likes": 30
+          },
+          {
+            "username": "adam",
+            "content": "The sky gradient is so clean",
+            "replies": 0,
+            "likes": 17
+          }
+        ]
+      }
     ]
   },
   {
@@ -400,11 +739,16 @@
     "email": "ziyad@mail.com",
     "password": "ziyad007",
     "pfpUrl": "cookie.jpg",
+    "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
+    "dateOfBirth": "1990-04-12T00:00:00.000Z",
+    "gender": "M",
+    "city": "Dubai",
+    "accountType": "business",
     "followers": [
       {
         "username": "jafar",
         "pfpUrl": "cookie.jpg",
-        "bio": "Coffee addict ☕ | Traveler 🌍 | Building things one day at a time",
+        "bio": "Coffee lover ☕ | Traveler 🌍 | Building things one day at a time",
         "city": "Medina"
       },
       {
@@ -452,24 +796,80 @@
         "city": "Jeddah"
       }
     ],
-    "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
-    "dateOfBirth": "1990-04-12T00:00:00.000Z",
-    "gender": "M",
-    "city": "Dubai",
-    "accountType": "business",
     "posts": [
-      { "media": "sunnyDay.jpg", "likes": 45000 },
-      { "media": "desert.jpg", "likes": 32000 },
-      { "media": "rainnyCar.jpg", "likes": 28000 },
-      { "media": "sunFlower.jpg", "likes": 19500 },
-      { "media": "carbet.jpg", "likes": 12300 },
-      { "media": "sunnyDay.jpg", "likes": 38000 },
-      { "media": "desert.jpg", "likes": 41000 },
-      { "media": "rainnyCar.jpg", "likes": 22000 },
-      { "media": "sunFlower.jpg", "likes": 17000 },
-      { "media": "carbet.jpg", "likes": 9800 },
-      { "media": "sunnyDay.jpg", "likes": 55000 },
-      { "media": "desert.jpg", "likes": 31000 }
+      {
+        "id": "post_ziyad_1",
+        "username": "Ziyad",
+        "media": "sunnyDay.jpg",
+        "description": "AI is not replacing you — someone using AI is. Start learning now. 🤖 #Tech #AI",
+        "likes": 45000,
+        "createdAt": "2025-10-10T09:00:00.000Z",
+        "comments": [
+          { "username": "jafar", "content": "This hit different 💯", "replies": 5, "likes": 980 },
+          {
+            "username": "Hussam",
+            "content": "Sharing this everywhere",
+            "replies": 3,
+            "likes": 740
+          },
+          {
+            "username": "Feras",
+            "content": "Okay okay I'll start that course 😭",
+            "replies": 2,
+            "likes": 610
+          },
+          {
+            "username": "Abdullah",
+            "content": "Needed to hear this today fr",
+            "replies": 1,
+            "likes": 430
+          }
+        ]
+      },
+      {
+        "id": "post_ziyad_2",
+        "username": "Ziyad",
+        "media": "desert.jpg",
+        "description": "Dubai → Riyadh road trip 🚗 Some thoughts on building in the Middle East 🧵",
+        "likes": 32000,
+        "createdAt": "2025-10-17T14:00:00.000Z",
+        "comments": [
+          {
+            "username": "Kevin",
+            "content": "The thread was incredible, more please!",
+            "replies": 2,
+            "likes": 520
+          },
+          {
+            "username": "Huda",
+            "content": "The entrepreneurship ecosystem here is growing so fast",
+            "replies": 3,
+            "likes": 480
+          }
+        ]
+      },
+      {
+        "id": "post_ziyad_3",
+        "username": "Ziyad",
+        "media": "rainnyCar.jpg",
+        "description": "Even on grey days, the grind doesn't stop ☁️💻",
+        "likes": 28000,
+        "createdAt": "2025-10-24T11:30:00.000Z",
+        "comments": [
+          {
+            "username": "adam",
+            "content": "This is the content I follow you for 🙌",
+            "replies": 1,
+            "likes": 390
+          },
+          {
+            "username": "jafar",
+            "content": "Motivational and aesthetic? Legend move",
+            "replies": 2,
+            "likes": 310
+          }
+        ]
+      }
     ]
   },
   {
@@ -478,11 +878,15 @@
     "email": "adam@mail.com",
     "password": "adam2025",
     "pfpUrl": "drops.jpg",
+    "bio": "🎨 Digital artist | Turning ideas into pixels | Open for commissions",
+    "dateOfBirth": "2000-12-25T00:00:00.000Z",
+    "gender": "M",
+    "city": "Khobar",
     "followers": [
       {
         "username": "jafar",
         "pfpUrl": "cookie.jpg",
-        "bio": "Coffee addict ☕ | Traveler 🌍 | Building things one day at a time",
+        "bio": "Coffee lover ☕ | Traveler 🌍 | Building things one day at a time",
         "city": "Medina"
       },
       {
@@ -524,170 +928,79 @@
         "city": "Medina"
       }
     ],
-    "bio": "🎨 Digital artist | Turning ideas into pixels | Open for commissions",
-    "dateOfBirth": "2000-12-25T00:00:00.000Z",
-    "gender": "M",
-    "city": "Khobar",
     "posts": [
-      { "media": "sunFlower.jpg", "likes": 1100 },
-      { "media": "carbet.jpg", "likes": 870 },
-      { "media": "desert.jpg", "likes": 2300 },
-      { "media": "rainnyCar.jpg", "likes": 540 },
-      { "media": "sunnyDay.jpg", "likes": 990 },
-      { "media": "sunFlower.jpg", "likes": 1450 },
-      { "media": "desert.jpg", "likes": 680 },
-      { "media": "carbet.jpg", "likes": 320 }
-    ]
-  },
-  {
-    "username": "Mihdar",
-    "phoneNumber": "5536593256",
-    "email": "jafar@mail.com",
-    "password": "jafar",
-    "pfpUrl": "cookie.jpg",
-    "followers": [
       {
-        "username": "Hussam",
-        "pfpUrl": "snowflake.webp",
-        "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
-        "city": "Riyadh",
-        "accountType": "personal"
-      },
-      {
-        "username": "Huda",
-        "pfpUrl": "carbet.jpg",
-        "bio": "Interior designer 🏡 | Bringing spaces to life | DM for collabs",
-        "city": "Jeddah",
-        "accountType": "business"
-      },
-      {
-        "username": "Ziyad",
-        "pfpUrl": "cookie.jpg",
-        "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
-        "city": "Dubai",
-        "accountType": "business"
-      },
-      {
-        "username": "Abdullah",
-        "pfpUrl": "defaultAvatar.jpg",
-        "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
-        "city": "Medina",
-        "accountType": "personal"
-      },
-      {
+        "id": "post_adam_1",
         "username": "adam",
-        "pfpUrl": "drops.jpg",
-        "bio": "🎨 Digital artist | Turning ideas into pixels | Open for commissions",
-        "city": "Khobar",
-        "accountType": "personal"
-      }
-    ],
-    "following": [
-      {
-        "username": "Ziyad",
-        "pfpUrl": "cookie.jpg",
-        "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
-        "city": "Dubai",
-        "accountType": "business"
+        "media": "sunFlower.jpg",
+        "description": "New digital piece 🌻 Took 6 hours but worth every minute. DM for prints!",
+        "likes": 1100,
+        "createdAt": "2025-11-04T20:00:00.000Z",
+        "comments": [
+          {
+            "username": "Huda",
+            "content": "The detail work here is insane 😍",
+            "replies": 2,
+            "likes": 65
+          },
+          {
+            "username": "jafar",
+            "content": "You're genuinely talented bro 🔥",
+            "replies": 1,
+            "likes": 50
+          },
+          {
+            "username": "Feras",
+            "content": "How long have you been doing art?",
+            "replies": 1,
+            "likes": 30
+          }
+        ]
       },
       {
-        "username": "Huda",
-        "pfpUrl": "carbet.jpg",
-        "bio": "Interior designer 🏡 | Bringing spaces to life | DM for collabs",
-        "city": "Jeddah",
-        "accountType": "business"
-      },
-      {
-        "username": "Feras",
-        "pfpUrl": "sunFlower.jpg",
-        "bio": "Just vibing 🎧 | CS student | Gamer by night",
-        "city": "Mecca",
-        "accountType": "personal"
-      }
-    ],
-    "bio": "Coffee lover ☕ | Traveler 🌍 | Building things one day at a time",
-    "dateOfBirth": "1995-06-15T00:00:00.000Z",
-    "gender": "M",
-    "city": "Macca",
-    "posts": [
-      { "media": "sunnyDay.jpg", "likes": 1203 },
-      { "media": "desert.jpg", "likes": 874 },
-      { "media": "rainnyCar.jpg", "likes": 302 },
-      { "media": "sunFlower.jpg", "likes": 511 },
-      { "media": "carbet.jpg", "likes": 98 },
-      { "media": "rainnyCar.jpg", "likes": 430 },
-      { "media": "sunFlower.jpg", "likes": 760 },
-      { "media": "sunnyDay.jpg", "likes": 215 },
-      { "media": "desert.jpg", "likes": 990 },
-      { "media": "carbet.jpg", "likes": 133 }
-    ]
-  },
-  {
-    "username": "Kevin 2",
-    "phoneNumber": "5544332211",
-    "email": "kevin@mail.com",
-    "password": "kevin321",
-    "pfpUrl": "defaultAvatar.jpg",
-    "followers": [
-      {
-        "username": "jafar",
-        "pfpUrl": "cookie.jpg",
-        "bio": "Coffee addict ☕ | Traveler 🌍 | Building things one day at a time",
-        "city": "Medina"
-      },
-      {
-        "username": "Hussam",
-        "pfpUrl": "snowflake.webp",
-        "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
-        "city": "Riyadh"
-      },
-      {
-        "username": "Ziyad",
-        "pfpUrl": "cookie.jpg",
-        "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
-        "city": "Dubai"
-      },
-      {
+        "id": "post_adam_2",
         "username": "adam",
-        "pfpUrl": "drops.jpg",
-        "bio": "🎨 Digital artist | Turning ideas into pixels | Open for commissions",
-        "city": "Khobar"
-      }
-    ],
-    "following": [
-      {
-        "username": "Huda",
-        "pfpUrl": "carbet.jpg",
-        "bio": "Interior designer 🏡 | Bringing spaces to life | DM for collabs",
-        "city": "Jeddah"
+        "media": "desert.jpg",
+        "description": "Desert landscapes are my new obsession 🏜️ Studying the light and texture.",
+        "likes": 2300,
+        "createdAt": "2025-11-09T15:00:00.000Z",
+        "comments": [
+          {
+            "username": "Hussam",
+            "content": "As a photographer I fully respect this 📷",
+            "replies": 2,
+            "likes": 88
+          },
+          {
+            "username": "Ziyad",
+            "content": "The next piece better be a desert series",
+            "replies": 1,
+            "likes": 72
+          }
+        ]
       },
       {
-        "username": "Abdullah",
-        "pfpUrl": "defaultAvatar.jpg",
-        "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
-        "city": "Medina"
-      },
-      {
-        "username": "Feras",
-        "pfpUrl": "sunFlower.jpg",
-        "bio": "Just vibing 🎧 | CS student | Gamer by night",
-        "city": "Mecca"
+        "id": "post_adam_3",
+        "username": "adam",
+        "media": "rainnyCar.jpg",
+        "description": "Rain = art session 🎨 Something about the grey sky just unlocks creativity.",
+        "likes": 540,
+        "createdAt": "2025-11-16T19:30:00.000Z",
+        "comments": [
+          {
+            "username": "Kevin",
+            "content": "Rain does hit different creatively ngl",
+            "replies": 0,
+            "likes": 25
+          },
+          {
+            "username": "Abdullah",
+            "content": "Post the art when you're done! 👀",
+            "replies": 1,
+            "likes": 20
+          }
+        ]
       }
-    ],
-    "bio": "Football ⚽ | Fitness 💪 | Al-Hilal fan till I die 💙💙",
-    "dateOfBirth": "1997-01-18T00:00:00.000Z",
-    "gender": "M",
-    "city": "Riyadh",
-    "posts": [
-      { "media": "sunnyDay.jpg", "likes": 3200 },
-      { "media": "desert.jpg", "likes": 1540 },
-      { "media": "rainnyCar.jpg", "likes": 780 },
-      { "media": "sunFlower.jpg", "likes": 2100 },
-      { "media": "carbet.jpg", "likes": 450 },
-      { "media": "sunnyDay.jpg", "likes": 1900 },
-      { "media": "desert.jpg", "likes": 670 },
-      { "media": "rainnyCar.jpg", "likes": 1300 },
-      { "media": "carbet.jpg", "likes": 980 }
     ]
   }
 ]
