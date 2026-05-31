@@ -1,0 +1,84 @@
+{
+  "username": "jafar",
+  "phoneNumber": "5536593256",
+  "email": "jafar@mail.com",
+  "password": "jafar",
+  "pfpUrl": "cookie.jpg",
+  "followers": [
+    {
+      "username": "Hussam",
+      "pfpUrl": "snowflake.webp",
+      "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
+      "city": "Riyadh",
+      "accountType": "personal"
+    },
+    {
+      "username": "Huda",
+      "pfpUrl": "carbet.jpg",
+      "bio": "Interior designer 🏡 | Bringing spaces to life | DM for collabs",
+      "city": "Jeddah",
+      "accountType": "business"
+    },
+    {
+      "username": "Ziyad",
+      "pfpUrl": "cookie.jpg",
+      "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
+      "city": "Dubai",
+      "accountType": "business"
+    },
+    {
+      "username": "Abdullah",
+      "pfpUrl": "defaultAvatar.jpg",
+      "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
+      "city": "Medina",
+      "accountType": "personal"
+    },
+    {
+      "username": "adam",
+      "pfpUrl": "drops.jpg",
+      "bio": "🎨 Digital artist | Turning ideas into pixels | Open for commissions",
+      "city": "Khobar",
+      "accountType": "personal"
+    }
+  ],
+  "following": [
+    {
+      "username": "Ziyad",
+      "pfpUrl": "cookie.jpg",
+      "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
+      "city": "Dubai",
+      "accountType": "business"
+    },
+    {
+      "username": "Huda",
+      "pfpUrl": "carbet.jpg",
+      "bio": "Interior designer 🏡 | Bringing spaces to life | DM for collabs",
+      "city": "Jeddah",
+      "accountType": "business"
+    },
+    {
+      "username": "Feras",
+      "pfpUrl": "sunFlower.jpg",
+      "bio": "Just vibing 🎧 | CS student | Gamer by night",
+      "city": "Mecca",
+      "accountType": "personal"
+    }
+  ],
+  "bio": "Coffee lover ☕ | Traveler 🌍 | Building things one day at a time",
+  "dateOfBirth": "1995-06-15T00:00:00.000Z",
+  "gender": "M",
+  "city": "Medina",
+  "accountType": "personal",
+  "posts": [
+    { "media": "sunnyDay.jpg", "likes": 1203 },
+    { "media": "desert.jpg", "likes": 874 },
+    { "media": "rainnyCar.jpg", "likes": 302 },
+    { "media": "sunFlower.jpg", "likes": 511 },
+    { "media": "carbet.jpg", "likes": 98 },
+    { "media": "rainnyCar.jpg", "likes": 430 },
+    { "media": "sunFlower.jpg", "likes": 760 },
+    { "media": "sunnyDay.jpg", "likes": 215 },
+    { "media": "desert.jpg", "likes": 990 },
+    { "media": "carbet.jpg", "likes": 133 }
+  ]
+}

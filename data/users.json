@@ -1,0 +1,693 @@
+[
+  {
+    "username": "jafar",
+    "phoneNumber": "5536593256",
+    "email": "jafar@mail.com",
+    "password": "jafar",
+    "pfpUrl": "cookie.jpg",
+    "bio": "Coffee lover ☕ | Traveler 🌍 | Building things one day at a time",
+    "dateOfBirth": "1995-06-15T00:00:00.000Z",
+    "gender": "M",
+    "city": "Medina",
+    "followers": [
+      {
+        "username": "jafar",
+        "pfpUrl": "cookie.jpg",
+        "bio": "Coffee addict ☕ | Traveler 🌍 | Building things one day at a time",
+        "city": "Medina"
+      },
+      {
+        "username": "Feras",
+        "pfpUrl": "sunFlower.jpg",
+        "bio": "Just vibing 🎧 | CS student | Gamer by night",
+        "city": "Mecca"
+      },
+      {
+        "username": "Abdullah",
+        "pfpUrl": "defaultAvatar.jpg",
+        "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
+        "city": "Medina"
+      }
+    ],
+    "following": [
+      {
+        "username": "jafar",
+        "pfpUrl": "cookie.jpg",
+        "bio": "Coffee addict ☕ | Traveler 🌍 | Building things one day at a time",
+        "city": "Medina"
+      },
+      {
+        "username": "Ziyad",
+        "pfpUrl": "cookie.jpg",
+        "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
+        "city": "Dubai"
+      },
+      {
+        "username": "Kevin",
+        "pfpUrl": "defaultAvatar.jpg",
+        "bio": "Football ⚽ | Fitness 💪 | Al-Hilal fan till I die 💙",
+        "city": "Riyadh"
+      },
+      {
+        "username": "adam",
+        "pfpUrl": "drops.jpg",
+        "bio": "🎨 Digital artist | Turning ideas into pixels | Open for commissions",
+        "city": "Khobar"
+      }
+    ],
+    "posts": [
+      { "media": "sunnyDay.jpg", "likes": 1203 },
+      { "media": "desert.jpg", "likes": 874 },
+      { "media": "rainnyCar.jpg", "likes": 302 },
+      { "media": "sunFlower.jpg", "likes": 511 },
+      { "media": "carbet.jpg", "likes": 98 },
+      { "media": "rainnyCar.jpg", "likes": 430 },
+      { "media": "sunFlower.jpg", "likes": 760 },
+      { "media": "sunnyDay.jpg", "likes": 215 },
+      { "media": "desert.jpg", "likes": 990 },
+      { "media": "carbet.jpg", "likes": 133 }
+    ]
+  },
+  {
+    "username": "Hussam",
+    "phoneNumber": "5512348765",
+    "email": "hussam@mail.com",
+    "password": "hussam123",
+    "pfpUrl": "snowflake.webp",
+    "followers": [
+      {
+        "username": "jafar",
+        "pfpUrl": "cookie.jpg",
+        "bio": "Coffee addict ☕ | Traveler 🌍 | Building things one day at a time",
+        "city": "Medina"
+      },
+      {
+        "username": "Feras",
+        "pfpUrl": "sunFlower.jpg",
+        "bio": "Just vibing 🎧 | CS student | Gamer by night",
+        "city": "Mecca"
+      },
+      {
+        "username": "Abdullah",
+        "pfpUrl": "defaultAvatar.jpg",
+        "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
+        "city": "Medina"
+      }
+    ],
+    "following": [
+      {
+        "username": "jafar",
+        "pfpUrl": "cookie.jpg",
+        "bio": "Coffee addict ☕ | Traveler 🌍 | Building things one day at a time",
+        "city": "Medina"
+      },
+      {
+        "username": "Ziyad",
+        "pfpUrl": "cookie.jpg",
+        "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
+        "city": "Dubai"
+      },
+      {
+        "username": "Kevin",
+        "pfpUrl": "defaultAvatar.jpg",
+        "bio": "Football ⚽ | Fitness 💪 | Al-Hilal fan till I die 💙",
+        "city": "Riyadh"
+      },
+      {
+        "username": "adam",
+        "pfpUrl": "drops.jpg",
+        "bio": "🎨 Digital artist | Turning ideas into pixels | Open for commissions",
+        "city": "Khobar"
+      }
+    ],
+    "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
+    "dateOfBirth": "1998-03-22T00:00:00.000Z",
+    "gender": "M",
+    "city": "Riyadh",
+    "posts": [
+      { "media": "desert.jpg", "likes": 4502 },
+      { "media": "sunnyDay.jpg", "likes": 2100 },
+      { "media": "carbet.jpg", "likes": 88 },
+      { "media": "rainnyCar.jpg", "likes": 630 },
+      { "media": "sunFlower.jpg", "likes": 371 },
+      { "media": "desert.jpg", "likes": 1820 },
+      { "media": "sunnyDay.jpg", "likes": 905 },
+      { "media": "carbet.jpg", "likes": 44 }
+    ]
+  },
+  {
+    "username": "Huda",
+    "phoneNumber": "5598761234",
+    "email": "huda@mail.com",
+    "password": "huda456",
+    "pfpUrl": "carbet.jpg",
+    "followers": [
+      {
+        "username": "jafar",
+        "pfpUrl": "cookie.jpg",
+        "bio": "Coffee addict ☕ | Traveler 🌍 | Building things one day at a time",
+        "city": "Medina"
+      },
+      {
+        "username": "Hussam",
+        "pfpUrl": "snowflake.webp",
+        "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
+        "city": "Riyadh"
+      },
+      {
+        "username": "Kevin",
+        "pfpUrl": "defaultAvatar.jpg",
+        "bio": "Football ⚽ | Fitness 💪 | Al-Hilal fan till I die 💙",
+        "city": "Riyadh"
+      },
+      {
+        "username": "Abdullah",
+        "pfpUrl": "defaultAvatar.jpg",
+        "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
+        "city": "Medina"
+      },
+      {
+        "username": "Ziyad",
+        "pfpUrl": "cookie.jpg",
+        "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
+        "city": "Dubai"
+      }
+    ],
+    "following": [
+      {
+        "username": "Ziyad",
+        "pfpUrl": "cookie.jpg",
+        "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
+        "city": "Dubai"
+      },
+      {
+        "username": "adam",
+        "pfpUrl": "drops.jpg",
+        "bio": "🎨 Digital artist | Turning ideas into pixels | Open for commissions",
+        "city": "Khobar"
+      }
+    ],
+    "bio": "Interior designer 🏡 | Bringing spaces to life | DM for collabs",
+    "dateOfBirth": "1993-11-05T00:00:00.000Z",
+    "gender": "F",
+    "city": "Jeddah",
+    "accountType": "business",
+    "posts": [
+      { "media": "carbet.jpg", "likes": 9800 },
+      { "media": "sunFlower.jpg", "likes": 7420 },
+      { "media": "sunnyDay.jpg", "likes": 6100 },
+      { "media": "desert.jpg", "likes": 4300 },
+      { "media": "rainnyCar.jpg", "likes": 3210 },
+      { "media": "carbet.jpg", "likes": 5500 },
+      { "media": "sunFlower.jpg", "likes": 8800 },
+      { "media": "sunnyDay.jpg", "likes": 2900 },
+      { "media": "carbet.jpg", "likes": 4100 },
+      { "media": "desert.jpg", "likes": 6700 },
+      { "media": "rainnyCar.jpg", "likes": 3900 },
+      { "media": "sunFlower.jpg", "likes": 5100 }
+    ]
+  },
+  {
+    "username": "Feras",
+    "phoneNumber": "5571239876",
+    "email": "feras@mail.com",
+    "password": "feras789",
+    "pfpUrl": "sunFlower.jpg",
+    "followers": [
+      {
+        "username": "adam",
+        "pfpUrl": "drops.jpg",
+        "bio": "🎨 Digital artist | Turning ideas into pixels | Open for commissions",
+        "city": "Khobar"
+      },
+      {
+        "username": "Kevin",
+        "pfpUrl": "defaultAvatar.jpg",
+        "bio": "Football ⚽ | Fitness 💪 | Al-Hilal fan till I die 💙",
+        "city": "Riyadh"
+      }
+    ],
+    "following": [
+      {
+        "username": "Hussam",
+        "pfpUrl": "snowflake.webp",
+        "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
+        "city": "Riyadh"
+      },
+      {
+        "username": "Huda",
+        "pfpUrl": "carbet.jpg",
+        "bio": "Interior designer 🏡 | Bringing spaces to life | DM for collabs",
+        "city": "Jeddah"
+      },
+      {
+        "username": "Abdullah",
+        "pfpUrl": "defaultAvatar.jpg",
+        "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
+        "city": "Medina"
+      },
+      {
+        "username": "Ziyad",
+        "pfpUrl": "cookie.jpg",
+        "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
+        "city": "Dubai"
+      }
+    ],
+    "bio": "Just vibing 🎧 | CS student | Gamer by night",
+    "dateOfBirth": "2001-07-30T00:00:00.000Z",
+    "gender": "M",
+    "city": "Mecca",
+    "posts": [
+      { "media": "sunnyDay.jpg", "likes": 42 },
+      { "media": "desert.jpg", "likes": 178 },
+      { "media": "rainnyCar.jpg", "likes": 65 },
+      { "media": "sunFlower.jpg", "likes": 210 },
+      { "media": "carbet.jpg", "likes": 33 },
+      { "media": "rainnyCar.jpg", "likes": 88 }
+    ]
+  },
+  {
+    "username": "Kevin",
+    "phoneNumber": "5544332211",
+    "email": "kevin@mail.com",
+    "password": "kevin321",
+    "pfpUrl": "defaultAvatar.jpg",
+    "followers": [
+      {
+        "username": "jafar",
+        "pfpUrl": "cookie.jpg",
+        "bio": "Coffee addict ☕ | Traveler 🌍 | Building things one day at a time",
+        "city": "Medina"
+      },
+      {
+        "username": "Hussam",
+        "pfpUrl": "snowflake.webp",
+        "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
+        "city": "Riyadh"
+      },
+      {
+        "username": "Ziyad",
+        "pfpUrl": "cookie.jpg",
+        "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
+        "city": "Dubai"
+      },
+      {
+        "username": "adam",
+        "pfpUrl": "drops.jpg",
+        "bio": "🎨 Digital artist | Turning ideas into pixels | Open for commissions",
+        "city": "Khobar"
+      }
+    ],
+    "following": [
+      {
+        "username": "Huda",
+        "pfpUrl": "carbet.jpg",
+        "bio": "Interior designer 🏡 | Bringing spaces to life | DM for collabs",
+        "city": "Jeddah"
+      },
+      {
+        "username": "Abdullah",
+        "pfpUrl": "defaultAvatar.jpg",
+        "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
+        "city": "Medina"
+      },
+      {
+        "username": "Feras",
+        "pfpUrl": "sunFlower.jpg",
+        "bio": "Just vibing 🎧 | CS student | Gamer by night",
+        "city": "Mecca"
+      }
+    ],
+    "bio": "Football ⚽ | Fitness 💪 | Al-Hilal fan till I die 💙💙",
+    "dateOfBirth": "1997-01-18T00:00:00.000Z",
+    "gender": "M",
+    "city": "Riyadh",
+    "posts": [
+      { "media": "sunnyDay.jpg", "likes": 3200 },
+      { "media": "desert.jpg", "likes": 1540 },
+      { "media": "rainnyCar.jpg", "likes": 780 },
+      { "media": "sunFlower.jpg", "likes": 2100 },
+      { "media": "carbet.jpg", "likes": 450 },
+      { "media": "sunnyDay.jpg", "likes": 1900 },
+      { "media": "desert.jpg", "likes": 670 },
+      { "media": "rainnyCar.jpg", "likes": 1300 },
+      { "media": "carbet.jpg", "likes": 980 }
+    ]
+  },
+  {
+    "username": "Abdullah",
+    "phoneNumber": "5566778899",
+    "email": "abdullah@mail.com",
+    "password": "abd2024",
+    "pfpUrl": "defaultAvatar.jpg",
+    "followers": [
+      {
+        "username": "Feras",
+        "pfpUrl": "sunFlower.jpg",
+        "bio": "Just vibing 🎧 | CS student | Gamer by night",
+        "city": "Mecca"
+      },
+      {
+        "username": "Kevin",
+        "pfpUrl": "defaultAvatar.jpg",
+        "bio": "Football ⚽ | Fitness 💪 | Al-Hilal fan till I die 💙",
+        "city": "Riyadh"
+      }
+    ],
+    "following": [
+      {
+        "username": "jafar",
+        "pfpUrl": "cookie.jpg",
+        "bio": "Coffee addict ☕ | Traveler 🌍 | Building things one day at a time",
+        "city": "Medina"
+      },
+      {
+        "username": "Hussam",
+        "pfpUrl": "snowflake.webp",
+        "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
+        "city": "Riyadh"
+      },
+      {
+        "username": "Huda",
+        "pfpUrl": "carbet.jpg",
+        "bio": "Interior designer 🏡 | Bringing spaces to life | DM for collabs",
+        "city": "Jeddah"
+      },
+      {
+        "username": "Ziyad",
+        "pfpUrl": "cookie.jpg",
+        "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
+        "city": "Dubai"
+      }
+    ],
+    "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
+    "dateOfBirth": "1999-09-09T00:00:00.000Z",
+    "gender": "M",
+    "city": "Medina",
+    "posts": [
+      { "media": "sunnyDay.jpg", "likes": 120 },
+      { "media": "desert.jpg", "likes": 340 },
+      { "media": "rainnyCar.jpg", "likes": 88 },
+      { "media": "sunFlower.jpg", "likes": 215 },
+      { "media": "carbet.jpg", "likes": 60 },
+      { "media": "sunnyDay.jpg", "likes": 400 },
+      { "media": "desert.jpg", "likes": 175 }
+    ]
+  },
+  {
+    "username": "Ziyad",
+    "phoneNumber": "5511223344",
+    "email": "ziyad@mail.com",
+    "password": "ziyad007",
+    "pfpUrl": "cookie.jpg",
+    "followers": [
+      {
+        "username": "jafar",
+        "pfpUrl": "cookie.jpg",
+        "bio": "Coffee addict ☕ | Traveler 🌍 | Building things one day at a time",
+        "city": "Medina"
+      },
+      {
+        "username": "Hussam",
+        "pfpUrl": "snowflake.webp",
+        "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
+        "city": "Riyadh"
+      },
+      {
+        "username": "Huda",
+        "pfpUrl": "carbet.jpg",
+        "bio": "Interior designer 🏡 | Bringing spaces to life | DM for collabs",
+        "city": "Jeddah"
+      },
+      {
+        "username": "Feras",
+        "pfpUrl": "sunFlower.jpg",
+        "bio": "Just vibing 🎧 | CS student | Gamer by night",
+        "city": "Mecca"
+      },
+      {
+        "username": "Kevin",
+        "pfpUrl": "defaultAvatar.jpg",
+        "bio": "Football ⚽ | Fitness 💪 | Al-Hilal fan till I die 💙",
+        "city": "Riyadh"
+      },
+      {
+        "username": "Abdullah",
+        "pfpUrl": "defaultAvatar.jpg",
+        "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
+        "city": "Medina"
+      },
+      {
+        "username": "adam",
+        "pfpUrl": "drops.jpg",
+        "bio": "🎨 Digital artist | Turning ideas into pixels | Open for commissions",
+        "city": "Khobar"
+      }
+    ],
+    "following": [
+      {
+        "username": "Huda",
+        "pfpUrl": "carbet.jpg",
+        "bio": "Interior designer 🏡 | Bringing spaces to life | DM for collabs",
+        "city": "Jeddah"
+      }
+    ],
+    "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
+    "dateOfBirth": "1990-04-12T00:00:00.000Z",
+    "gender": "M",
+    "city": "Dubai",
+    "accountType": "business",
+    "posts": [
+      { "media": "sunnyDay.jpg", "likes": 45000 },
+      { "media": "desert.jpg", "likes": 32000 },
+      { "media": "rainnyCar.jpg", "likes": 28000 },
+      { "media": "sunFlower.jpg", "likes": 19500 },
+      { "media": "carbet.jpg", "likes": 12300 },
+      { "media": "sunnyDay.jpg", "likes": 38000 },
+      { "media": "desert.jpg", "likes": 41000 },
+      { "media": "rainnyCar.jpg", "likes": 22000 },
+      { "media": "sunFlower.jpg", "likes": 17000 },
+      { "media": "carbet.jpg", "likes": 9800 },
+      { "media": "sunnyDay.jpg", "likes": 55000 },
+      { "media": "desert.jpg", "likes": 31000 }
+    ]
+  },
+  {
+    "username": "adam",
+    "phoneNumber": "5599887766",
+    "email": "adam@mail.com",
+    "password": "adam2025",
+    "pfpUrl": "drops.jpg",
+    "followers": [
+      {
+        "username": "jafar",
+        "pfpUrl": "cookie.jpg",
+        "bio": "Coffee addict ☕ | Traveler 🌍 | Building things one day at a time",
+        "city": "Medina"
+      },
+      {
+        "username": "Hussam",
+        "pfpUrl": "snowflake.webp",
+        "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
+        "city": "Riyadh"
+      },
+      {
+        "username": "Kevin",
+        "pfpUrl": "defaultAvatar.jpg",
+        "bio": "Football ⚽ | Fitness 💪 | Al-Hilal fan till I die 💙",
+        "city": "Riyadh"
+      }
+    ],
+    "following": [
+      {
+        "username": "Huda",
+        "pfpUrl": "carbet.jpg",
+        "bio": "Interior designer 🏡 | Bringing spaces to life | DM for collabs",
+        "city": "Jeddah"
+      },
+      {
+        "username": "Feras",
+        "pfpUrl": "sunFlower.jpg",
+        "bio": "Just vibing 🎧 | CS student | Gamer by night",
+        "city": "Mecca"
+      },
+      {
+        "username": "Ziyad",
+        "pfpUrl": "cookie.jpg",
+        "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
+        "city": "Dubai"
+      },
+      {
+        "username": "Abdullah",
+        "pfpUrl": "defaultAvatar.jpg",
+        "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
+        "city": "Medina"
+      }
+    ],
+    "bio": "🎨 Digital artist | Turning ideas into pixels | Open for commissions",
+    "dateOfBirth": "2000-12-25T00:00:00.000Z",
+    "gender": "M",
+    "city": "Khobar",
+    "posts": [
+      { "media": "sunFlower.jpg", "likes": 1100 },
+      { "media": "carbet.jpg", "likes": 870 },
+      { "media": "desert.jpg", "likes": 2300 },
+      { "media": "rainnyCar.jpg", "likes": 540 },
+      { "media": "sunnyDay.jpg", "likes": 990 },
+      { "media": "sunFlower.jpg", "likes": 1450 },
+      { "media": "desert.jpg", "likes": 680 },
+      { "media": "carbet.jpg", "likes": 320 }
+    ]
+  },
+  {
+    "username": "Mihdar",
+    "phoneNumber": "5536593256",
+    "email": "jafar@mail.com",
+    "password": "jafar",
+    "pfpUrl": "cookie.jpg",
+    "followers": [
+      {
+        "username": "Hussam",
+        "pfpUrl": "snowflake.webp",
+        "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
+        "city": "Riyadh",
+        "accountType": "personal"
+      },
+      {
+        "username": "Huda",
+        "pfpUrl": "carbet.jpg",
+        "bio": "Interior designer 🏡 | Bringing spaces to life | DM for collabs",
+        "city": "Jeddah",
+        "accountType": "business"
+      },
+      {
+        "username": "Ziyad",
+        "pfpUrl": "cookie.jpg",
+        "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
+        "city": "Dubai",
+        "accountType": "business"
+      },
+      {
+        "username": "Abdullah",
+        "pfpUrl": "defaultAvatar.jpg",
+        "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
+        "city": "Medina",
+        "accountType": "personal"
+      },
+      {
+        "username": "adam",
+        "pfpUrl": "drops.jpg",
+        "bio": "🎨 Digital artist | Turning ideas into pixels | Open for commissions",
+        "city": "Khobar",
+        "accountType": "personal"
+      }
+    ],
+    "following": [
+      {
+        "username": "Ziyad",
+        "pfpUrl": "cookie.jpg",
+        "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
+        "city": "Dubai",
+        "accountType": "business"
+      },
+      {
+        "username": "Huda",
+        "pfpUrl": "carbet.jpg",
+        "bio": "Interior designer 🏡 | Bringing spaces to life | DM for collabs",
+        "city": "Jeddah",
+        "accountType": "business"
+      },
+      {
+        "username": "Feras",
+        "pfpUrl": "sunFlower.jpg",
+        "bio": "Just vibing 🎧 | CS student | Gamer by night",
+        "city": "Mecca",
+        "accountType": "personal"
+      }
+    ],
+    "bio": "Coffee lover ☕ | Traveler 🌍 | Building things one day at a time",
+    "dateOfBirth": "1995-06-15T00:00:00.000Z",
+    "gender": "M",
+    "city": "Macca",
+    "posts": [
+      { "media": "sunnyDay.jpg", "likes": 1203 },
+      { "media": "desert.jpg", "likes": 874 },
+      { "media": "rainnyCar.jpg", "likes": 302 },
+      { "media": "sunFlower.jpg", "likes": 511 },
+      { "media": "carbet.jpg", "likes": 98 },
+      { "media": "rainnyCar.jpg", "likes": 430 },
+      { "media": "sunFlower.jpg", "likes": 760 },
+      { "media": "sunnyDay.jpg", "likes": 215 },
+      { "media": "desert.jpg", "likes": 990 },
+      { "media": "carbet.jpg", "likes": 133 }
+    ]
+  },
+  {
+    "username": "Kevin 2",
+    "phoneNumber": "5544332211",
+    "email": "kevin@mail.com",
+    "password": "kevin321",
+    "pfpUrl": "defaultAvatar.jpg",
+    "followers": [
+      {
+        "username": "jafar",
+        "pfpUrl": "cookie.jpg",
+        "bio": "Coffee addict ☕ | Traveler 🌍 | Building things one day at a time",
+        "city": "Medina"
+      },
+      {
+        "username": "Hussam",
+        "pfpUrl": "snowflake.webp",
+        "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
+        "city": "Riyadh"
+      },
+      {
+        "username": "Ziyad",
+        "pfpUrl": "cookie.jpg",
+        "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
+        "city": "Dubai"
+      },
+      {
+        "username": "adam",
+        "pfpUrl": "drops.jpg",
+        "bio": "🎨 Digital artist | Turning ideas into pixels | Open for commissions",
+        "city": "Khobar"
+      }
+    ],
+    "following": [
+      {
+        "username": "Huda",
+        "pfpUrl": "carbet.jpg",
+        "bio": "Interior designer 🏡 | Bringing spaces to life | DM for collabs",
+        "city": "Jeddah"
+      },
+      {
+        "username": "Abdullah",
+        "pfpUrl": "defaultAvatar.jpg",
+        "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
+        "city": "Medina"
+      },
+      {
+        "username": "Feras",
+        "pfpUrl": "sunFlower.jpg",
+        "bio": "Just vibing 🎧 | CS student | Gamer by night",
+        "city": "Mecca"
+      }
+    ],
+    "bio": "Football ⚽ | Fitness 💪 | Al-Hilal fan till I die 💙💙",
+    "dateOfBirth": "1997-01-18T00:00:00.000Z",
+    "gender": "M",
+    "city": "Riyadh",
+    "posts": [
+      { "media": "sunnyDay.jpg", "likes": 3200 },
+      { "media": "desert.jpg", "likes": 1540 },
+      { "media": "rainnyCar.jpg", "likes": 780 },
+      { "media": "sunFlower.jpg", "likes": 2100 },
+      { "media": "carbet.jpg", "likes": 450 },
+      { "media": "sunnyDay.jpg", "likes": 1900 },
+      { "media": "desert.jpg", "likes": 670 },
+      { "media": "rainnyCar.jpg", "likes": 1300 },
+      { "media": "carbet.jpg", "likes": 980 }
+    ]
+  }
+]
