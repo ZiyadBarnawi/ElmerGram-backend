@@ -1,38 +1,38 @@
-import express from 'express';
-import fs from 'fs';
-import morgan from 'morgan';
-import cors from 'cors';
-import compression from 'compression';
-let userData = JSON.parse(fs.readFileSync('./data/users.json', { encoding: 'utf-8' }));
-let reelsData = JSON.parse(fs.readFileSync('./data/reels.json', { encoding: 'utf-8' }));
+import express from "express";
+import fs from "fs";
+import morgan from "morgan";
+import cors from "cors";
+import compression from "compression";
+let userData = JSON.parse(fs.readFileSync("./data/users.json", { encoding: "utf-8" }));
+let reelsData = JSON.parse(fs.readFileSync("./data/reels.json", { encoding: "utf-8" }));
 
 const date = new Date();
 reelsData.forEach((reel) => (reel.createdAt = (date.getDate() + Math.random() * 10).toString()));
 
 const app = express();
 app.use(express.json());
-app.use(morgan('dev'));
+app.use(morgan("dev"));
 app.use(comp);
-app.use(cors({ origin: '*' }));
+app.use(cors({ origin: "*" }));
 
-app.get('/users', (req, res) => {
+app.get("/users", (req, res) => {
   res.json(userData);
 });
 //? User CRU
 
-app.get('/users/:username', (req, res) => {
+app.get("/users/:username", (req, res) => {
   let user = userData.filter((user) =>
     user.username.toLowerCase().includes(req.params.username.toLowerCase()),
   );
   res.json(user);
 });
 
-app.post('/users', async (req, res) => {
+app.post("/users", async (req, res) => {
   let newUser = { ...req.body };
 
   try {
     userData.push(newUser);
-    await fs.writeFile('./data/users.json', JSON.stringify(userData), (err) => {
+    await fs.writeFile("./data/users.json", JSON.stringify(userData), (err) => {
       if (err) console.log(err);
     });
   } catch (err) {
@@ -40,7 +40,7 @@ app.post('/users', async (req, res) => {
   }
   return res.status(201).json({ newUser });
 });
-app.patch('/users/:username', async (req, res) => {
+app.patch("/users/:username", async (req, res) => {
   let userIndex = userData.findIndex(
     (user) => user.username.toLowerCase() === req.params.username.toLowerCase(),
   );
@@ -51,16 +51,16 @@ app.patch('/users/:username', async (req, res) => {
   }
   userData[userIndex] = req.body;
 
-  await fs.writeFile('./data/users.json', JSON.stringify(userData), (err) => {
+  await fs.writeFile("./data/users.json", JSON.stringify(userData), (err) => {
     if (err) console.log(err);
   });
   res.json(userData[userIndex]);
 });
 
 //? reels
-app.get('/reels', async (req, res) => {
+app.get("/reels", async (req, res) => {
   return res.send(reelsData);
 });
-app.listen('3000', '127.0.0.1', () => {
-  console.log('Listening on port 3000 📞...');
+app.listen(process.env.PORT || "3000", "127.0.0.1", () => {
+  console.log("Listening on port 3000 📞...");
 });
