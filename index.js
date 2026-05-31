@@ -16,9 +16,9 @@ app.use(morgan("dev"));
 app.use(compression());
 app.use(cors({ origin: "*" }));
 
-app.get("/", (req, res) => {
-  return res.send("Hello there! ✨✨");
-});
+// app.get("/", (req, res) => {
+//   return res.send("Hello there! ✨✨");
+// });
 app.get("/users", (req, res) => {
   res.json(userData);
 });
