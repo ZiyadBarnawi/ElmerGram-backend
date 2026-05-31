@@ -3,6 +3,7 @@ import fs from "fs";
 import morgan from "morgan";
 import cors from "cors";
 import compression from "compression";
+
 let userData = JSON.parse(fs.readFileSync("./data/users.json", { encoding: "utf-8" }));
 let reelsData = JSON.parse(fs.readFileSync("./data/reels.json", { encoding: "utf-8" }));
 
@@ -18,7 +19,6 @@ app.use(cors({ origin: "*" }));
 app.get("/users", (req, res) => {
   res.json(userData);
 });
-//? User CRU
 
 app.get("/users/:username", (req, res) => {
   let user = userData.filter((user) =>
@@ -29,38 +29,33 @@ app.get("/users/:username", (req, res) => {
 
 app.post("/users", async (req, res) => {
   let newUser = { ...req.body };
-
   try {
     userData.push(newUser);
-    await fs.promises.writeFile("./data/users.json", JSON.stringify(userData), (err) => {
-      if (err) console.log(err);
-    });
+    await fs.promises.writeFile("./data/users.json", JSON.stringify(userData));
   } catch (err) {
     return res.status(500).json({ message: err });
   }
   return res.status(201).json({ newUser });
 });
+
 app.patch("/users/:username", async (req, res) => {
   let userIndex = userData.findIndex(
     (user) => user.username.toLowerCase() === req.params.username.toLowerCase(),
   );
   if (userIndex < 0) {
-    res
+    return res
       .status(404)
-      .json({ message: `No User was found with this username  " ${req.params.username} " ` });
+      .json({ message: `No user found with username "${req.params.username}"` });
   }
   userData[userIndex] = req.body;
-
-  await fs.promises.writeFile("./data/users.json", JSON.stringify(userData), (err) => {
-    if (err) console.log(err);
-  });
+  await fs.promises.writeFile("./data/users.json", JSON.stringify(userData));
   res.json(userData[userIndex]);
 });
 
-//? reels
-app.get("/reels", async (req, res) => {
-  return res.send(reelsData);
+app.get("/reels", (req, res) => {
+  res.json(reelsData);
 });
-app.listen(process.env.PORT || "3000", () => {
-  console.log("Listening on port 3000 📞...");
+
+app.listen(process.env.PORT || 3000, () => {
+  console.log(`Listening on port ${process.env.PORT || 3000}`);
 });
