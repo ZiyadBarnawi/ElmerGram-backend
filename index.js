@@ -3,8 +3,12 @@ import fs from "fs";
 import morgan from "morgan";
 import cors from "cors";
 import compression from "compression";
-let userData = JSON.parse(fs.readFileSync("./data/users.json", { encoding: "utf-8" }));
-let reelsData = JSON.parse(fs.readFileSync("./data/reels.json", { encoding: "utf-8" }));
+let userData = JSON.parse(
+  fs.readFileSync(process.env.PORT + "/data/users.json", { encoding: "utf-8" }),
+);
+let reelsData = JSON.parse(
+  fs.readFileSync(process.env.PORT + "/data/reels.json", { encoding: "utf-8" }),
+);
 
 const date = new Date();
 reelsData.forEach((reel) => (reel.createdAt = (date.getDate() + Math.random() * 10).toString()));
