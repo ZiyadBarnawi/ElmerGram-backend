@@ -3,12 +3,8 @@ import fs from "fs";
 import morgan from "morgan";
 import cors from "cors";
 import compression from "compression";
-let userData = JSON.parse(
-  fs.readFileSync(process.env.PORT + "/data/users.json", { encoding: "utf-8" }),
-);
-let reelsData = JSON.parse(
-  fs.readFileSync(process.env.PORT + "/data/reels.json", { encoding: "utf-8" }),
-);
+let userData = JSON.parse(fs.readFileSync("./data/users.json", { encoding: "utf-8" }));
+let reelsData = JSON.parse(fs.readFileSync("./data/reels.json", { encoding: "utf-8" }));
 
 const date = new Date();
 reelsData.forEach((reel) => (reel.createdAt = (date.getDate() + Math.random() * 10).toString()));
@@ -16,7 +12,7 @@ reelsData.forEach((reel) => (reel.createdAt = (date.getDate() + Math.random() * 
 const app = express();
 app.use(express.json());
 app.use(morgan("dev"));
-app.use(comp);
+app.use(compression());
 app.use(cors({ origin: "*" }));
 
 app.get("/users", (req, res) => {
@@ -36,7 +32,7 @@ app.post("/users", async (req, res) => {
 
   try {
     userData.push(newUser);
-    await fs.writeFile("./data/users.json", JSON.stringify(userData), (err) => {
+    await fs.promises.writeFile("./data/users.json", JSON.stringify(userData), (err) => {
       if (err) console.log(err);
     });
   } catch (err) {
@@ -55,7 +51,7 @@ app.patch("/users/:username", async (req, res) => {
   }
   userData[userIndex] = req.body;
 
-  await fs.writeFile("./data/users.json", JSON.stringify(userData), (err) => {
+  await fs.promises.writeFile("./data/users.json", JSON.stringify(userData), (err) => {
     if (err) console.log(err);
   });
   res.json(userData[userIndex]);
@@ -65,6 +61,6 @@ app.patch("/users/:username", async (req, res) => {
 app.get("/reels", async (req, res) => {
   return res.send(reelsData);
 });
-app.listen(process.env.PORT || "3000", "127.0.0.1", () => {
+app.listen(process.env.PORT || "3000", () => {
   console.log("Listening on port 3000 📞...");
 });
