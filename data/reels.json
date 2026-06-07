@@ -1,22 +1,315 @@
 [
-  { "media": "pfp4.png", "likes": 22, "username": "@Zsh" },
-  { "media": "logo1.png", "likes": 14, "username": "@Ziyad" },
-  { "media": "pfp2.png", "likes": 1, "username": "@Adam" },
-  { "media": "pfp6.png", "likes": 2, "username": "@Ali" },
-  { "media": "logo3.png", "likes": 57, "username": "@Mohammad" },
-  { "media": "pfp3.png", "likes": 32, "username": "@Hamed" },
-  { "media": "pfp3.png", "likes": 73, "username": "@D" },
-  { "media": "pfp5.png", "likes": 38, "username": "@Abdullah" },
-  { "media": "logo2.png", "likes": 79, "username": "@Mishari" },
-  { "media": "pfp2.png", "likes": 22, "username": "@Shaher" },
-  { "media": "pfp6.png", "likes": 261, "username": "@Zsh" },
-  { "media": "pfp3.png", "likes": 217, "username": "@Zsh" },
-  { "media": "logo1.png", "likes": 85, "username": "@Zsh" },
-  { "media": "pfp4.png", "likes": 16, "username": "@Zsh" },
-  { "media": "pfp3.png", "likes": 214, "username": "@Zsh" },
-  { "media": "pfp5.png", "likes": 111, "username": "@Zsh" },
-  { "media": "logo2.png", "likes": 73, "username": "@Zsh" },
-  { "media": "pfp1.png", "likes": 235, "username": "@Zsh" },
-  { "media": "pfp6.png", "likes": 2385, "username": "@Zsh" },
-  { "media": "pfp3.png", "likes": 2835, "username": "@Zsh" }
+  {
+    "id": "reel_001",
+    "username": "Zsh",
+    "media": "pfp4.png",
+    "pfpUrl": "pfp3.png",
+    "description": "Quick morning routine 🌅 Consistency is everything.",
+    "likes": 22,
+    "createdAt": "2025-11-01T07:00:00.000Z",
+    "comments": [
+      { "username": "Hussam", "content": "Love the energy 🔥", "replies": 1, "likes": 5 },
+      { "username": "Feras", "content": "Do you do this every day?", "replies": 0, "likes": 3 }
+    ]
+  },
+  {
+    "id": "reel_002",
+    "username": "Ziyad",
+    "media": "logo1.png",
+    "pfpUrl": "pfp6.png",
+    "description": "The future of AI in the Middle East 🤖 Thread incoming.",
+    "likes": 14,
+    "createdAt": "2025-11-02T09:30:00.000Z",
+    "comments": [
+      { "username": "jafar", "content": "Been waiting for this 👀", "replies": 2, "likes": 6 }
+    ]
+  },
+  {
+    "id": "reel_003",
+    "username": "Adam",
+    "media": "pfp2.png",
+    "pfpUrl": "pfp2.png",
+    "description": "Speedpaint of my latest piece 🎨 Full video on YouTube.",
+    "likes": 1,
+    "createdAt": "2025-11-03T14:00:00.000Z",
+    "comments": [
+      {
+        "username": "Huda",
+        "content": "The process is so satisfying to watch!",
+        "replies": 0,
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "reel_004",
+    "username": "Ali",
+    "media": "pfp6.png",
+    "pfpUrl": "pfp5.png",
+    "description": "City walk vibes 🚶‍♂️ Medina never gets old.",
+    "likes": 2,
+    "createdAt": "2025-11-04T17:15:00.000Z",
+    "comments": [
+      { "username": "Abdullah", "content": "Which area is this?", "replies": 1, "likes": 1 }
+    ]
+  },
+  {
+    "id": "reel_005",
+    "username": "Mohammad",
+    "media": "logo3.png",
+    "pfpUrl": "pfp1.png",
+    "description": "Gym session done ✅ No excuses, no days off 💪",
+    "likes": 57,
+    "createdAt": "2025-11-05T06:00:00.000Z",
+    "comments": [
+      {
+        "username": "Kevin",
+        "content": "This is the motivation I needed 💪",
+        "replies": 2,
+        "likes": 18
+      },
+      {
+        "username": "Feras",
+        "content": "Bro what time do you wake up 😭",
+        "replies": 1,
+        "likes": 9
+      }
+    ]
+  },
+  {
+    "id": "reel_006",
+    "username": "Hamed",
+    "media": "pfp1.png",
+    "pfpUrl": "pfp4.png",
+    "description": "Road trip through the north ⛰️ Unreal landscapes.",
+    "likes": 32,
+    "createdAt": "2025-11-06T12:00:00.000Z",
+    "comments": [
+      { "username": "jafar", "content": "Add me next time bro 😭", "replies": 1, "likes": 11 },
+      { "username": "adam", "content": "The scenery is incredible", "replies": 0, "likes": 7 }
+    ]
+  },
+  {
+    "id": "reel_007",
+    "username": "D",
+    "media": "pfp3.png",
+    "pfpUrl": "pfp2.png",
+    "description": "Street food hunt in Jeddah 🍢 This city never disappoints.",
+    "likes": 73,
+    "createdAt": "2025-11-07T19:45:00.000Z",
+    "comments": [
+      { "username": "Abdullah", "content": "Name of the place?? 👀", "replies": 3, "likes": 22 },
+      {
+        "username": "Hussam",
+        "content": "I can smell this through the screen",
+        "replies": 1,
+        "likes": 14
+      }
+    ]
+  },
+  {
+    "id": "reel_008",
+    "username": "Abdullah",
+    "media": "pfp5.png",
+    "pfpUrl": "pfp1.png",
+    "description": "Cooking kabsa from scratch 🍚 Recipe in bio!",
+    "likes": 38,
+    "createdAt": "2025-11-08T13:30:00.000Z",
+    "comments": [
+      { "username": "jafar", "content": "Send me a plate please 😭", "replies": 2, "likes": 13 },
+      { "username": "Kevin", "content": "Looks absolutely fire 🔥", "replies": 0, "likes": 8 }
+    ]
+  },
+  {
+    "id": "reel_009",
+    "username": "Mishari",
+    "media": "logo2.png",
+    "pfpUrl": "pfp3.png",
+    "description": "Sunrise at the farm 🌄 Nothing like it.",
+    "likes": 79,
+    "createdAt": "2025-11-09T05:45:00.000Z",
+    "comments": [
+      { "username": "Hussam", "content": "This lighting is insane 📷", "replies": 2, "likes": 30 },
+      { "username": "Huda", "content": "So peaceful 😌", "replies": 1, "likes": 18 }
+    ]
+  },
+  {
+    "id": "reel_010",
+    "username": "Shaher",
+    "media": "pfp2.png",
+    "pfpUrl": "pfp6.png",
+    "description": "Late night drive playlist 🎵 Drop your song recs below.",
+    "likes": 22,
+    "createdAt": "2025-11-10T23:00:00.000Z",
+    "comments": [
+      {
+        "username": "Feras",
+        "content": "Lofi hits different at night fr",
+        "replies": 1,
+        "likes": 7
+      },
+      { "username": "adam", "content": "This is my whole personality 😂", "replies": 0, "likes": 5 }
+    ]
+  },
+  {
+    "id": "reel_011",
+    "username": "Zsh",
+    "media": "pfp6.png",
+    "pfpUrl": "pfp3.png",
+    "description": "POV: you finally hit your goal 🎯 Hard work pays off.",
+    "likes": 261,
+    "createdAt": "2025-11-11T10:00:00.000Z",
+    "comments": [
+      { "username": "Kevin", "content": "This is so motivating 🙌", "replies": 3, "likes": 55 },
+      { "username": "Ziyad", "content": "Keep going bro 💯", "replies": 2, "likes": 40 },
+      { "username": "jafar", "content": "Proud of you fr", "replies": 1, "likes": 28 }
+    ]
+  },
+  {
+    "id": "reel_012",
+    "username": "Zsh",
+    "media": "pfp1.png",
+    "pfpUrl": "pfp3.png",
+    "description": "Behind the scenes of my setup 🖥️ Full tour soon.",
+    "likes": 217,
+    "createdAt": "2025-11-12T15:00:00.000Z",
+    "comments": [
+      { "username": "Feras", "content": "Setup goals 😩", "replies": 2, "likes": 45 },
+      { "username": "adam", "content": "What monitor is that??", "replies": 1, "likes": 30 }
+    ]
+  },
+  {
+    "id": "reel_013",
+    "username": "Zsh",
+    "media": "logo1.png",
+    "pfpUrl": "pfp3.png",
+    "description": "Things I wish I knew at 20 📝 Save this.",
+    "likes": 85,
+    "createdAt": "2025-11-13T08:00:00.000Z",
+    "comments": [
+      { "username": "Hussam", "content": "Number 3 hit hard 😔", "replies": 1, "likes": 20 },
+      { "username": "Abdullah", "content": "Needed this today honestly", "replies": 0, "likes": 15 }
+    ]
+  },
+  {
+    "id": "reel_014",
+    "username": "Zsh",
+    "media": "pfp4.png",
+    "pfpUrl": "pfp3.png",
+    "description": "Trying a new coffee recipe ☕ Nailed it on the first try.",
+    "likes": 16,
+    "createdAt": "2025-11-14T09:15:00.000Z",
+    "comments": [
+      { "username": "jafar", "content": "Fellow coffee lover 🫶", "replies": 1, "likes": 4 }
+    ]
+  },
+  {
+    "id": "reel_015",
+    "username": "Zsh",
+    "media": "pfp3.png",
+    "pfpUrl": "pfp3.png",
+    "description": "Desert sunset timelapse 🏜️ Took 3 hours to film this.",
+    "likes": 214,
+    "createdAt": "2025-11-15T18:30:00.000Z",
+    "comments": [
+      { "username": "Hussam", "content": "The patience paid off 📷🔥", "replies": 3, "likes": 60 },
+      { "username": "Huda", "content": "Wallpaper worthy 😍", "replies": 2, "likes": 42 },
+      { "username": "adam", "content": "The colors are unreal", "replies": 1, "likes": 35 }
+    ]
+  },
+  {
+    "id": "reel_016",
+    "username": "Zsh",
+    "media": "pfp5.png",
+    "pfpUrl": "pfp3.png",
+    "description": "Weekly vlog is up 🎬 Link in bio.",
+    "likes": 111,
+    "createdAt": "2025-11-16T12:00:00.000Z",
+    "comments": [
+      { "username": "Feras", "content": "Watched it twice already 😂", "replies": 2, "likes": 25 },
+      { "username": "Kevin", "content": "The editing on this one 🔥", "replies": 1, "likes": 19 }
+    ]
+  },
+  {
+    "id": "reel_017",
+    "username": "Zsh",
+    "media": "logo2.png",
+    "pfpUrl": "pfp3.png",
+    "description": "When the plan actually works 😤 Satisfaction unlocked.",
+    "likes": 73,
+    "createdAt": "2025-11-17T20:00:00.000Z",
+    "comments": [
+      { "username": "Ziyad", "content": "The discipline shows 💯", "replies": 1, "likes": 18 },
+      { "username": "jafar", "content": "This is the way 🙌", "replies": 0, "likes": 12 }
+    ]
+  },
+  {
+    "id": "reel_018",
+    "username": "Zsh",
+    "media": "pfp1.png",
+    "pfpUrl": "pfp3.png",
+    "description": "Explore Medina with me 🕌 Hidden gems nobody talks about.",
+    "likes": 235,
+    "createdAt": "2025-11-18T11:00:00.000Z",
+    "comments": [
+      {
+        "username": "Abdullah",
+        "content": "I live here and didn't know this spot 😭",
+        "replies": 3,
+        "likes": 70
+      },
+      { "username": "Hussam", "content": "Adding this to my list 📍", "replies": 2, "likes": 50 },
+      { "username": "Huda", "content": "Next time I visit for sure!", "replies": 1, "likes": 38 }
+    ]
+  },
+  {
+    "id": "reel_019",
+    "username": "Zsh",
+    "media": "pfp6.png",
+    "pfpUrl": "pfp3.png",
+    "description": "This took me 6 months to build 🏗️ Worth every second.",
+    "likes": 2385,
+    "createdAt": "2025-11-19T16:00:00.000Z",
+    "comments": [
+      {
+        "username": "Ziyad",
+        "content": "Genuinely impressive work bro 🔥",
+        "replies": 5,
+        "likes": 320
+      },
+      { "username": "adam", "content": "The attention to detail 😍", "replies": 3, "likes": 210 },
+      {
+        "username": "Kevin",
+        "content": "Bro really said I'll do it myself",
+        "replies": 2,
+        "likes": 180
+      },
+      { "username": "Feras", "content": "This deserves way more views", "replies": 1, "likes": 145 }
+    ]
+  },
+  {
+    "id": "reel_020",
+    "username": "Zsh",
+    "media": "pfp3.png",
+    "pfpUrl": "pfp3.png",
+    "description": "From zero to here 🚀 A story about not giving up.",
+    "likes": 2835,
+    "createdAt": "2025-11-20T09:00:00.000Z",
+    "comments": [
+      { "username": "Hussam", "content": "This hit different fr 🙏", "replies": 6, "likes": 480 },
+      {
+        "username": "jafar",
+        "content": "Sharing this with everyone I know",
+        "replies": 4,
+        "likes": 390
+      },
+      {
+        "username": "Huda",
+        "content": "The most real thing on my feed today",
+        "replies": 3,
+        "likes": 310
+      },
+      { "username": "Ziyad", "content": "This is why I follow you 💯", "replies": 2, "likes": 275 }
+    ]
+  }
 ]
