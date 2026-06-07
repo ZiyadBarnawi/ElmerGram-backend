@@ -18,7 +18,7 @@
       },
       {
         "username": "Abdullah",
-        "pfpUrl": "pfp1.png",
+        "pfpUrl": "pfp2.png",
         "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
         "city": "Medina"
       }
@@ -82,7 +82,7 @@
       {
         "id": "post_jafar_3",
         "username": "jafar",
-        "media": "pfp1.png",
+        "media": "pfp2.png",
         "description": "Rainy drives and good music 🎵 Perfect combo.",
         "likes": 302,
         "createdAt": "2025-11-10T19:45:00.000Z",
@@ -136,7 +136,7 @@
     "phoneNumber": "5512348765",
     "email": "hussam@mail.com",
     "password": "hussam123",
-    "pfpUrl": "pfp1.png",
+    "pfpUrl": "pfp2.png",
     "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
     "dateOfBirth": "1998-03-22T00:00:00.000Z",
     "gender": "M",
@@ -156,7 +156,7 @@
       },
       {
         "username": "Abdullah",
-        "pfpUrl": "pfp1.png",
+        "pfpUrl": "pfp2.png",
         "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
         "city": "Medina"
       }
@@ -271,7 +271,7 @@
       },
       {
         "username": "Hussam",
-        "pfpUrl": "pfp1.png",
+        "pfpUrl": "pfp2.png",
         "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
         "city": "Riyadh"
       },
@@ -283,7 +283,7 @@
       },
       {
         "username": "Abdullah",
-        "pfpUrl": "pfp1.png",
+        "pfpUrl": "pfp2.png",
         "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
         "city": "Medina"
       },
@@ -422,7 +422,7 @@
     "following": [
       {
         "username": "Hussam",
-        "pfpUrl": "pfp1.png",
+        "pfpUrl": "pfp2.png",
         "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
         "city": "Riyadh"
       },
@@ -434,7 +434,7 @@
       },
       {
         "username": "Abdullah",
-        "pfpUrl": "pfp1.png",
+        "pfpUrl": "pfp2.png",
         "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
         "city": "Medina"
       },
@@ -533,7 +533,7 @@
       },
       {
         "username": "Hussam",
-        "pfpUrl": "pfp1.png",
+        "pfpUrl": "pfp2.png",
         "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
         "city": "Riyadh"
       },
@@ -559,7 +559,7 @@
       },
       {
         "username": "Abdullah",
-        "pfpUrl": "pfp1.png",
+        "pfpUrl": "pfp2.png",
         "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
         "city": "Medina"
       },
@@ -574,7 +574,7 @@
       {
         "id": "post_kevin_1",
         "username": "Kevin",
-        "media": "pfp1.png",
+        "media": "pfp2.png",
         "description": "Match day in Riyadh 💙 Al-Hilal never disappoints! #Hilal",
         "likes": 3200,
         "createdAt": "2025-10-22T20:00:00.000Z",
@@ -635,7 +635,7 @@
     "phoneNumber": "5566778899",
     "email": "abdullah@mail.com",
     "password": "abd2024",
-    "pfpUrl": "pfp1.png",
+    "pfpUrl": "pfp2.png",
     "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
     "dateOfBirth": "1999-09-09T00:00:00.000Z",
     "gender": "M",
@@ -663,7 +663,7 @@
       },
       {
         "username": "Hussam",
-        "pfpUrl": "pfp1.png",
+        "pfpUrl": "pfp2.png",
         "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
         "city": "Riyadh"
       },
@@ -753,7 +753,7 @@
       },
       {
         "username": "Hussam",
-        "pfpUrl": "pfp1.png",
+        "pfpUrl": "pfp2.png",
         "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
         "city": "Riyadh"
       },
@@ -777,7 +777,7 @@
       },
       {
         "username": "Abdullah",
-        "pfpUrl": "pfp1.png",
+        "pfpUrl": "pfp2.png",
         "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
         "city": "Medina"
       },
@@ -851,7 +851,7 @@
       {
         "id": "post_ziyad_3",
         "username": "Ziyad",
-        "media": "pfp1.png",
+        "media": "pfp2.png",
         "description": "Even on grey days, the grind doesn't stop ☁️💻",
         "likes": 28000,
         "createdAt": "2025-10-24T11:30:00.000Z",
@@ -891,7 +891,7 @@
       },
       {
         "username": "Hussam",
-        "pfpUrl": "pfp1.png",
+        "pfpUrl": "pfp2.png",
         "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
         "city": "Riyadh"
       },
@@ -923,7 +923,7 @@
       },
       {
         "username": "Abdullah",
-        "pfpUrl": "pfp1.png",
+        "pfpUrl": "pfp2.png",
         "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
         "city": "Medina"
       }
