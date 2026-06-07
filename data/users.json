@@ -4,7 +4,7 @@
     "phoneNumber": "5536593256",
     "email": "jafar@mail.com",
     "password": "jafar",
-    "pfpUrl": "cookie.jpg",
+    "pfpUrl": "pfp3.png",
     "bio": "Coffee lover ☕ | Traveler 🌍 | Building things one day at a time",
     "dateOfBirth": "1995-06-15T00:00:00.000Z",
     "gender": "M",
@@ -12,13 +12,13 @@
     "followers": [
       {
         "username": "Feras",
-        "pfpUrl": "sunFlower.jpg",
+        "pfpUrl": "pfp5.png",
         "bio": "Just vibing 🎧 | CS student | Gamer by night",
         "city": "Mecca"
       },
       {
         "username": "Abdullah",
-        "pfpUrl": "defaultAvatar.jpg",
+        "pfpUrl": "pfp1.png",
         "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
         "city": "Medina"
       }
@@ -26,19 +26,19 @@
     "following": [
       {
         "username": "Ziyad",
-        "pfpUrl": "cookie.jpg",
+        "pfpUrl": "pfp6.png",
         "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
         "city": "Dubai"
       },
       {
         "username": "Kevin",
-        "pfpUrl": "defaultAvatar.jpg",
+        "pfpUrl": "pfp4.png",
         "bio": "Football ⚽ | Fitness 💪 | Al-Hilal fan till I die 💙",
         "city": "Riyadh"
       },
       {
         "username": "adam",
-        "pfpUrl": "drops.jpg",
+        "pfpUrl": "pfp2.png",
         "bio": "🎨 Digital artist | Turning ideas into pixels | Open for commissions",
         "city": "Khobar"
       }
@@ -47,7 +47,7 @@
       {
         "id": "post_jafar_1",
         "username": "jafar",
-        "media": "sunnyDay.jpg",
+        "media": "logo2.png",
         "description": "Beautiful sunny day in Medina ☀️ Nothing beats this view!",
         "likes": 1203,
         "createdAt": "2025-11-01T08:30:00.000Z",
@@ -60,7 +60,7 @@
       {
         "id": "post_jafar_2",
         "username": "jafar",
-        "media": "desert.jpg",
+        "media": "pfp4.png",
         "description": "Lost in the dunes 🏜️ The silence out here is unreal.",
         "likes": 874,
         "createdAt": "2025-11-05T15:00:00.000Z",
@@ -82,7 +82,7 @@
       {
         "id": "post_jafar_3",
         "username": "jafar",
-        "media": "rainnyCar.jpg",
+        "media": "pfp1.png",
         "description": "Rainy drives and good music 🎵 Perfect combo.",
         "likes": 302,
         "createdAt": "2025-11-10T19:45:00.000Z",
@@ -99,7 +99,7 @@
       {
         "id": "post_jafar_4",
         "username": "jafar",
-        "media": "sunFlower.jpg",
+        "media": "pfp6.png",
         "description": "Sunflower fields always make me smile 🌻",
         "likes": 511,
         "createdAt": "2025-11-15T10:00:00.000Z",
@@ -121,7 +121,7 @@
       {
         "id": "post_jafar_5",
         "username": "jafar",
-        "media": "carbet.jpg",
+        "media": "pfp3.png",
         "description": "Carpet shopping in the old market 🛒 These patterns are insane.",
         "likes": 98,
         "createdAt": "2025-11-20T14:30:00.000Z",
@@ -136,7 +136,7 @@
     "phoneNumber": "5512348765",
     "email": "hussam@mail.com",
     "password": "hussam123",
-    "pfpUrl": "snowflake.webp",
+    "pfpUrl": "pfp1.png",
     "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
     "dateOfBirth": "1998-03-22T00:00:00.000Z",
     "gender": "M",
@@ -144,19 +144,19 @@
     "followers": [
       {
         "username": "jafar",
-        "pfpUrl": "cookie.jpg",
+        "pfpUrl": "pfp3.png",
         "bio": "Coffee lover ☕ | Traveler 🌍 | Building things one day at a time",
         "city": "Medina"
       },
       {
         "username": "Feras",
-        "pfpUrl": "sunFlower.jpg",
+        "pfpUrl": "pfp5.png",
         "bio": "Just vibing 🎧 | CS student | Gamer by night",
         "city": "Mecca"
       },
       {
         "username": "Abdullah",
-        "pfpUrl": "defaultAvatar.jpg",
+        "pfpUrl": "pfp1.png",
         "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
         "city": "Medina"
       }
@@ -164,25 +164,25 @@
     "following": [
       {
         "username": "jafar",
-        "pfpUrl": "cookie.jpg",
+        "pfpUrl": "pfp3.png",
         "bio": "Coffee lover ☕ | Traveler 🌍 | Building things one day at a time",
         "city": "Medina"
       },
       {
         "username": "Ziyad",
-        "pfpUrl": "cookie.jpg",
+        "pfpUrl": "pfp6.png",
         "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
         "city": "Dubai"
       },
       {
         "username": "Kevin",
-        "pfpUrl": "defaultAvatar.jpg",
+        "pfpUrl": "pfp4.png",
         "bio": "Football ⚽ | Fitness 💪 | Al-Hilal fan till I die 💙",
         "city": "Riyadh"
       },
       {
         "username": "adam",
-        "pfpUrl": "drops.jpg",
+        "pfpUrl": "pfp2.png",
         "bio": "🎨 Digital artist | Turning ideas into pixels | Open for commissions",
         "city": "Khobar"
       }
@@ -191,7 +191,7 @@
       {
         "id": "post_hussam_1",
         "username": "Hussam",
-        "media": "desert.jpg",
+        "media": "logo1.png",
         "description": "Golden hour in the desert never gets old 📷 #Photography",
         "likes": 4502,
         "createdAt": "2025-10-18T17:30:00.000Z",
@@ -214,7 +214,7 @@
       {
         "id": "post_hussam_2",
         "username": "Hussam",
-        "media": "sunnyDay.jpg",
+        "media": "pfp2.png",
         "description": "Morning light is a different kind of magic ✨",
         "likes": 2100,
         "createdAt": "2025-10-25T07:00:00.000Z",
@@ -236,7 +236,7 @@
       {
         "id": "post_hussam_3",
         "username": "Hussam",
-        "media": "carbet.jpg",
+        "media": "pfp5.png",
         "description": "Texture and pattern study 👁️ Found this in the old souk.",
         "likes": 88,
         "createdAt": "2025-11-02T12:00:00.000Z",
@@ -256,7 +256,7 @@
     "phoneNumber": "5598761234",
     "email": "huda@mail.com",
     "password": "huda456",
-    "pfpUrl": "carbet.jpg",
+    "pfpUrl": "pfp6.png",
     "bio": "Interior designer 🏡 | Bringing spaces to life | DM for collabs",
     "dateOfBirth": "1993-11-05T00:00:00.000Z",
     "gender": "F",
@@ -265,31 +265,31 @@
     "followers": [
       {
         "username": "jafar",
-        "pfpUrl": "cookie.jpg",
+        "pfpUrl": "pfp3.png",
         "bio": "Coffee lover ☕ | Traveler 🌍 | Building things one day at a time",
         "city": "Medina"
       },
       {
         "username": "Hussam",
-        "pfpUrl": "snowflake.webp",
+        "pfpUrl": "pfp1.png",
         "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
         "city": "Riyadh"
       },
       {
         "username": "Kevin",
-        "pfpUrl": "defaultAvatar.jpg",
+        "pfpUrl": "pfp4.png",
         "bio": "Football ⚽ | Fitness 💪 | Al-Hilal fan till I die 💙",
         "city": "Riyadh"
       },
       {
         "username": "Abdullah",
-        "pfpUrl": "defaultAvatar.jpg",
+        "pfpUrl": "pfp1.png",
         "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
         "city": "Medina"
       },
       {
         "username": "Ziyad",
-        "pfpUrl": "cookie.jpg",
+        "pfpUrl": "pfp6.png",
         "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
         "city": "Dubai"
       }
@@ -297,13 +297,13 @@
     "following": [
       {
         "username": "Ziyad",
-        "pfpUrl": "cookie.jpg",
+        "pfpUrl": "pfp6.png",
         "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
         "city": "Dubai"
       },
       {
         "username": "adam",
-        "pfpUrl": "drops.jpg",
+        "pfpUrl": "pfp2.png",
         "bio": "🎨 Digital artist | Turning ideas into pixels | Open for commissions",
         "city": "Khobar"
       }
@@ -312,7 +312,7 @@
       {
         "id": "post_huda_1",
         "username": "Huda",
-        "media": "carbet.jpg",
+        "media": "logo3.png",
         "description": "New project reveal 🏡 Went for warm earthy tones this time. Thoughts?",
         "likes": 9800,
         "createdAt": "2025-10-05T11:00:00.000Z",
@@ -346,7 +346,7 @@
       {
         "id": "post_huda_2",
         "username": "Huda",
-        "media": "sunFlower.jpg",
+        "media": "pfp3.png",
         "description": "Adding life to spaces with plants 🌿 Never underestimate greenery in your home.",
         "likes": 7420,
         "createdAt": "2025-10-12T09:30:00.000Z",
@@ -374,7 +374,7 @@
       {
         "id": "post_huda_3",
         "username": "Huda",
-        "media": "sunnyDay.jpg",
+        "media": "pfp6.png",
         "description": "Natural light is every designer's best friend ☀️",
         "likes": 6100,
         "createdAt": "2025-10-20T13:00:00.000Z",
@@ -400,7 +400,7 @@
     "phoneNumber": "5571239876",
     "email": "feras@mail.com",
     "password": "feras789",
-    "pfpUrl": "sunFlower.jpg",
+    "pfpUrl": "pfp5.png",
     "bio": "Just vibing 🎧 | CS student | Gamer by night",
     "dateOfBirth": "2001-07-30T00:00:00.000Z",
     "gender": "M",
@@ -408,13 +408,13 @@
     "followers": [
       {
         "username": "adam",
-        "pfpUrl": "drops.jpg",
+        "pfpUrl": "pfp2.png",
         "bio": "🎨 Digital artist | Turning ideas into pixels | Open for commissions",
         "city": "Khobar"
       },
       {
         "username": "Kevin",
-        "pfpUrl": "defaultAvatar.jpg",
+        "pfpUrl": "pfp4.png",
         "bio": "Football ⚽ | Fitness 💪 | Al-Hilal fan till I die 💙",
         "city": "Riyadh"
       }
@@ -422,25 +422,25 @@
     "following": [
       {
         "username": "Hussam",
-        "pfpUrl": "snowflake.webp",
+        "pfpUrl": "pfp1.png",
         "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
         "city": "Riyadh"
       },
       {
         "username": "Huda",
-        "pfpUrl": "carbet.jpg",
+        "pfpUrl": "pfp6.png",
         "bio": "Interior designer 🏡 | Bringing spaces to life | DM for collabs",
         "city": "Jeddah"
       },
       {
         "username": "Abdullah",
-        "pfpUrl": "defaultAvatar.jpg",
+        "pfpUrl": "pfp1.png",
         "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
         "city": "Medina"
       },
       {
         "username": "Ziyad",
-        "pfpUrl": "cookie.jpg",
+        "pfpUrl": "pfp6.png",
         "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
         "city": "Dubai"
       }
@@ -449,7 +449,7 @@
       {
         "id": "post_feras_1",
         "username": "Feras",
-        "media": "sunnyDay.jpg",
+        "media": "pfp2.png",
         "description": "Studied outside today for a change ☀️ Highly recommend 10/10",
         "likes": 42,
         "createdAt": "2025-11-08T10:15:00.000Z",
@@ -471,7 +471,7 @@
       {
         "id": "post_feras_2",
         "username": "Feras",
-        "media": "desert.jpg",
+        "media": "pfp4.png",
         "description": "Weekend escape 🏜️ No wifi, no stress. Just vibes.",
         "likes": 178,
         "createdAt": "2025-11-14T16:00:00.000Z",
@@ -493,7 +493,7 @@
       {
         "id": "post_feras_3",
         "username": "Feras",
-        "media": "sunFlower.jpg",
+        "media": "pfp5.png",
         "description": "My sister made me take this photo 🌻 She said post it so here you go",
         "likes": 210,
         "createdAt": "2025-11-18T12:30:00.000Z",
@@ -519,7 +519,7 @@
     "phoneNumber": "5544332211",
     "email": "kevin@mail.com",
     "password": "kevin321",
-    "pfpUrl": "defaultAvatar.jpg",
+    "pfpUrl": "pfp4.png",
     "bio": "Football ⚽ | Fitness 💪 | Al-Hilal fan till I die 💙💙",
     "dateOfBirth": "1997-01-18T00:00:00.000Z",
     "gender": "M",
@@ -527,25 +527,25 @@
     "followers": [
       {
         "username": "jafar",
-        "pfpUrl": "cookie.jpg",
+        "pfpUrl": "pfp3.png",
         "bio": "Coffee lover ☕ | Traveler 🌍 | Building things one day at a time",
         "city": "Medina"
       },
       {
         "username": "Hussam",
-        "pfpUrl": "snowflake.webp",
+        "pfpUrl": "pfp1.png",
         "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
         "city": "Riyadh"
       },
       {
         "username": "Ziyad",
-        "pfpUrl": "cookie.jpg",
+        "pfpUrl": "pfp6.png",
         "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
         "city": "Dubai"
       },
       {
         "username": "adam",
-        "pfpUrl": "drops.jpg",
+        "pfpUrl": "pfp2.png",
         "bio": "🎨 Digital artist | Turning ideas into pixels | Open for commissions",
         "city": "Khobar"
       }
@@ -553,19 +553,19 @@
     "following": [
       {
         "username": "Huda",
-        "pfpUrl": "carbet.jpg",
+        "pfpUrl": "pfp6.png",
         "bio": "Interior designer 🏡 | Bringing spaces to life | DM for collabs",
         "city": "Jeddah"
       },
       {
         "username": "Abdullah",
-        "pfpUrl": "defaultAvatar.jpg",
+        "pfpUrl": "pfp1.png",
         "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
         "city": "Medina"
       },
       {
         "username": "Feras",
-        "pfpUrl": "sunFlower.jpg",
+        "pfpUrl": "pfp5.png",
         "bio": "Just vibing 🎧 | CS student | Gamer by night",
         "city": "Mecca"
       }
@@ -574,7 +574,7 @@
       {
         "id": "post_kevin_1",
         "username": "Kevin",
-        "media": "sunnyDay.jpg",
+        "media": "pfp1.png",
         "description": "Match day in Riyadh 💙 Al-Hilal never disappoints! #Hilal",
         "likes": 3200,
         "createdAt": "2025-10-22T20:00:00.000Z",
@@ -592,7 +592,7 @@
       {
         "id": "post_kevin_2",
         "username": "Kevin",
-        "media": "desert.jpg",
+        "media": "pfp3.png",
         "description": "Morning run at 5am hits different when the view is like this 🏃‍♂️",
         "likes": 1540,
         "createdAt": "2025-10-28T05:30:00.000Z",
@@ -614,7 +614,7 @@
       {
         "id": "post_kevin_3",
         "username": "Kevin",
-        "media": "rainnyCar.jpg",
+        "media": "pfp6.png",
         "description": "Rain in Riyadh is a whole event 🌧️ Everyone loses their minds lol",
         "likes": 780,
         "createdAt": "2025-11-03T18:00:00.000Z",
@@ -635,7 +635,7 @@
     "phoneNumber": "5566778899",
     "email": "abdullah@mail.com",
     "password": "abd2024",
-    "pfpUrl": "defaultAvatar.jpg",
+    "pfpUrl": "pfp1.png",
     "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
     "dateOfBirth": "1999-09-09T00:00:00.000Z",
     "gender": "M",
@@ -643,13 +643,13 @@
     "followers": [
       {
         "username": "Feras",
-        "pfpUrl": "sunFlower.jpg",
+        "pfpUrl": "pfp5.png",
         "bio": "Just vibing 🎧 | CS student | Gamer by night",
         "city": "Mecca"
       },
       {
         "username": "Kevin",
-        "pfpUrl": "defaultAvatar.jpg",
+        "pfpUrl": "pfp4.png",
         "bio": "Football ⚽ | Fitness 💪 | Al-Hilal fan till I die 💙",
         "city": "Riyadh"
       }
@@ -657,25 +657,25 @@
     "following": [
       {
         "username": "jafar",
-        "pfpUrl": "cookie.jpg",
+        "pfpUrl": "pfp3.png",
         "bio": "Coffee lover ☕ | Traveler 🌍 | Building things one day at a time",
         "city": "Medina"
       },
       {
         "username": "Hussam",
-        "pfpUrl": "snowflake.webp",
+        "pfpUrl": "pfp1.png",
         "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
         "city": "Riyadh"
       },
       {
         "username": "Huda",
-        "pfpUrl": "carbet.jpg",
+        "pfpUrl": "pfp6.png",
         "bio": "Interior designer 🏡 | Bringing spaces to life | DM for collabs",
         "city": "Jeddah"
       },
       {
         "username": "Ziyad",
-        "pfpUrl": "cookie.jpg",
+        "pfpUrl": "pfp6.png",
         "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
         "city": "Dubai"
       }
@@ -684,7 +684,7 @@
       {
         "id": "post_abdullah_1",
         "username": "Abdullah",
-        "media": "sunnyDay.jpg",
+        "media": "pfp4.png",
         "description": "Homemade kabsa today 🍚 Recipe in bio. You're welcome.",
         "likes": 120,
         "createdAt": "2025-11-06T13:00:00.000Z",
@@ -712,7 +712,7 @@
       {
         "id": "post_abdullah_2",
         "username": "Abdullah",
-        "media": "desert.jpg",
+        "media": "pfp2.png",
         "description": "Quick trip outside Medina 🏜️ The sky was unreal today.",
         "likes": 340,
         "createdAt": "2025-11-11T16:45:00.000Z",
@@ -738,7 +738,7 @@
     "phoneNumber": "5511223344",
     "email": "ziyad@mail.com",
     "password": "ziyad007",
-    "pfpUrl": "cookie.jpg",
+    "pfpUrl": "pfp6.png",
     "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
     "dateOfBirth": "1990-04-12T00:00:00.000Z",
     "gender": "M",
@@ -747,43 +747,43 @@
     "followers": [
       {
         "username": "jafar",
-        "pfpUrl": "cookie.jpg",
+        "pfpUrl": "pfp3.png",
         "bio": "Coffee lover ☕ | Traveler 🌍 | Building things one day at a time",
         "city": "Medina"
       },
       {
         "username": "Hussam",
-        "pfpUrl": "snowflake.webp",
+        "pfpUrl": "pfp1.png",
         "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
         "city": "Riyadh"
       },
       {
         "username": "Huda",
-        "pfpUrl": "carbet.jpg",
+        "pfpUrl": "pfp6.png",
         "bio": "Interior designer 🏡 | Bringing spaces to life | DM for collabs",
         "city": "Jeddah"
       },
       {
         "username": "Feras",
-        "pfpUrl": "sunFlower.jpg",
+        "pfpUrl": "pfp5.png",
         "bio": "Just vibing 🎧 | CS student | Gamer by night",
         "city": "Mecca"
       },
       {
         "username": "Kevin",
-        "pfpUrl": "defaultAvatar.jpg",
+        "pfpUrl": "pfp4.png",
         "bio": "Football ⚽ | Fitness 💪 | Al-Hilal fan till I die 💙",
         "city": "Riyadh"
       },
       {
         "username": "Abdullah",
-        "pfpUrl": "defaultAvatar.jpg",
+        "pfpUrl": "pfp1.png",
         "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
         "city": "Medina"
       },
       {
         "username": "adam",
-        "pfpUrl": "drops.jpg",
+        "pfpUrl": "pfp2.png",
         "bio": "🎨 Digital artist | Turning ideas into pixels | Open for commissions",
         "city": "Khobar"
       }
@@ -791,7 +791,7 @@
     "following": [
       {
         "username": "Huda",
-        "pfpUrl": "carbet.jpg",
+        "pfpUrl": "pfp6.png",
         "bio": "Interior designer 🏡 | Bringing spaces to life | DM for collabs",
         "city": "Jeddah"
       }
@@ -800,7 +800,7 @@
       {
         "id": "post_ziyad_1",
         "username": "Ziyad",
-        "media": "sunnyDay.jpg",
+        "media": "pfp5.png",
         "description": "AI is not replacing you — someone using AI is. Start learning now. 🤖 #Tech #AI",
         "likes": 45000,
         "createdAt": "2025-10-10T09:00:00.000Z",
@@ -829,7 +829,7 @@
       {
         "id": "post_ziyad_2",
         "username": "Ziyad",
-        "media": "desert.jpg",
+        "media": "pfp3.png",
         "description": "Dubai → Riyadh road trip 🚗 Some thoughts on building in the Middle East 🧵",
         "likes": 32000,
         "createdAt": "2025-10-17T14:00:00.000Z",
@@ -851,7 +851,7 @@
       {
         "id": "post_ziyad_3",
         "username": "Ziyad",
-        "media": "rainnyCar.jpg",
+        "media": "pfp1.png",
         "description": "Even on grey days, the grind doesn't stop ☁️💻",
         "likes": 28000,
         "createdAt": "2025-10-24T11:30:00.000Z",
@@ -877,7 +877,7 @@
     "phoneNumber": "5599887766",
     "email": "adam@mail.com",
     "password": "adam2025",
-    "pfpUrl": "drops.jpg",
+    "pfpUrl": "pfp2.png",
     "bio": "🎨 Digital artist | Turning ideas into pixels | Open for commissions",
     "dateOfBirth": "2000-12-25T00:00:00.000Z",
     "gender": "M",
@@ -885,19 +885,19 @@
     "followers": [
       {
         "username": "jafar",
-        "pfpUrl": "cookie.jpg",
+        "pfpUrl": "pfp3.png",
         "bio": "Coffee lover ☕ | Traveler 🌍 | Building things one day at a time",
         "city": "Medina"
       },
       {
         "username": "Hussam",
-        "pfpUrl": "snowflake.webp",
+        "pfpUrl": "pfp1.png",
         "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
         "city": "Riyadh"
       },
       {
         "username": "Kevin",
-        "pfpUrl": "defaultAvatar.jpg",
+        "pfpUrl": "pfp4.png",
         "bio": "Football ⚽ | Fitness 💪 | Al-Hilal fan till I die 💙",
         "city": "Riyadh"
       }
@@ -905,25 +905,25 @@
     "following": [
       {
         "username": "Huda",
-        "pfpUrl": "carbet.jpg",
+        "pfpUrl": "pfp6.png",
         "bio": "Interior designer 🏡 | Bringing spaces to life | DM for collabs",
         "city": "Jeddah"
       },
       {
         "username": "Feras",
-        "pfpUrl": "sunFlower.jpg",
+        "pfpUrl": "pfp5.png",
         "bio": "Just vibing 🎧 | CS student | Gamer by night",
         "city": "Mecca"
       },
       {
         "username": "Ziyad",
-        "pfpUrl": "cookie.jpg",
+        "pfpUrl": "pfp6.png",
         "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
         "city": "Dubai"
       },
       {
         "username": "Abdullah",
-        "pfpUrl": "defaultAvatar.jpg",
+        "pfpUrl": "pfp1.png",
         "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
         "city": "Medina"
       }
@@ -932,7 +932,7 @@
       {
         "id": "post_adam_1",
         "username": "adam",
-        "media": "sunFlower.jpg",
+        "media": "logo2.png",
         "description": "New digital piece 🌻 Took 6 hours but worth every minute. DM for prints!",
         "likes": 1100,
         "createdAt": "2025-11-04T20:00:00.000Z",
@@ -960,7 +960,7 @@
       {
         "id": "post_adam_2",
         "username": "adam",
-        "media": "desert.jpg",
+        "media": "pfp6.png",
         "description": "Desert landscapes are my new obsession 🏜️ Studying the light and texture.",
         "likes": 2300,
         "createdAt": "2025-11-09T15:00:00.000Z",
@@ -982,7 +982,7 @@
       {
         "id": "post_adam_3",
         "username": "adam",
-        "media": "rainnyCar.jpg",
+        "media": "pfp4.png",
         "description": "Rain = art session 🎨 Something about the grey sky just unlocks creativity.",
         "likes": 540,
         "createdAt": "2025-11-16T19:30:00.000Z",
