@@ -4,21 +4,22 @@
     "phoneNumber": "5536593256",
     "email": "jafar@mail.com",
     "password": "jafar",
-    "pfpUrl": "pfp3.png",
+    "pfpUrl": "cookie.jpg",
     "bio": "Coffee lover ☕ | Traveler 🌍 | Building things one day at a time",
     "dateOfBirth": "1995-06-15T00:00:00.000Z",
     "gender": "M",
     "city": "Medina",
+    "stories": ["cookie.jpg", "desert.jpg", "sunnyDay.jpg", "snowflake.webp", "bubbles.jpg"],
     "followers": [
       {
         "username": "Feras",
-        "pfpUrl": "pfp5.png",
+        "pfpUrl": "sunFlower.jpg",
         "bio": "Just vibing 🎧 | CS student | Gamer by night",
         "city": "Mecca"
       },
       {
         "username": "Abdullah",
-        "pfpUrl": "pfp2.png",
+        "pfpUrl": "defaultAvatar.jpg",
         "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
         "city": "Medina"
       }
@@ -26,19 +27,19 @@
     "following": [
       {
         "username": "Ziyad",
-        "pfpUrl": "pfp6.png",
+        "pfpUrl": "cookie.jpg",
         "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
         "city": "Dubai"
       },
       {
         "username": "Kevin",
-        "pfpUrl": "pfp4.png",
+        "pfpUrl": "defaultAvatar.jpg",
         "bio": "Football ⚽ | Fitness 💪 | Al-Hilal fan till I die 💙",
         "city": "Riyadh"
       },
       {
         "username": "adam",
-        "pfpUrl": "pfp2.png",
+        "pfpUrl": "bubbles.jpg",
         "bio": "🎨 Digital artist | Turning ideas into pixels | Open for commissions",
         "city": "Khobar"
       }
@@ -47,33 +48,48 @@
       {
         "id": "post_jafar_1",
         "username": "jafar",
-        "media": "logo2.png",
-        "description": "Beautiful sunny day in Medina ☀️ Nothing beats this view!",
+        "media": "sunnyDay.jpg",
+        "description": "Found this sunflower wearing shades in a field today 😎🌻 Even flowers know how to dress for the weather",
         "likes": 1203,
         "createdAt": "2025-11-01T08:30:00.000Z",
         "comments": [
-          { "username": "Hussam", "content": "Stunning shot! 😍", "replies": 2, "likes": 45 },
-          { "username": "Huda", "content": "Love the lighting here!", "replies": 1, "likes": 30 },
-          { "username": "Abdullah", "content": "Takes me back home 🕌", "replies": 0, "likes": 18 }
+          {
+            "username": "Hussam",
+            "content": "Bro the sunglasses got me 😂 iconic shot",
+            "replies": 2,
+            "likes": 45
+          },
+          {
+            "username": "Huda",
+            "content": "This flower has more drip than most people I know 💅",
+            "replies": 1,
+            "likes": 30
+          },
+          {
+            "username": "Abdullah",
+            "content": "Living its best life out there 🌞",
+            "replies": 0,
+            "likes": 18
+          }
         ]
       },
       {
         "id": "post_jafar_2",
         "username": "jafar",
-        "media": "pfp4.png",
-        "description": "Lost in the dunes 🏜️ The silence out here is unreal.",
+        "media": "desert.jpg",
+        "description": "Came across this stunning hand-drawn piece of an old mouse in the desert 🐭🏜️ The detail and emotion in this art is something else",
         "likes": 874,
         "createdAt": "2025-11-05T15:00:00.000Z",
         "comments": [
           {
             "username": "Feras",
-            "content": "Bro this looks like a movie scene 🎬",
+            "content": "This looks like a movie poster bro 🎬 incredible",
             "replies": 3,
             "likes": 60
           },
           {
             "username": "Kevin",
-            "content": "We need a road trip here ASAP",
+            "content": "The detail on that drawing is insane, who's the artist?",
             "replies": 2,
             "likes": 22
           }
@@ -82,15 +98,20 @@
       {
         "id": "post_jafar_3",
         "username": "jafar",
-        "media": "pfp2.png",
-        "description": "Rainy drives and good music 🎵 Perfect combo.",
+        "media": "cookie.jpg",
+        "description": "Baked these chocolate chip cookies last night 🍪 Recipe? Hard work and love. That's it.",
         "likes": 302,
         "createdAt": "2025-11-10T19:45:00.000Z",
         "comments": [
-          { "username": "adam", "content": "The vibe is immaculate ✨", "replies": 1, "likes": 14 },
+          {
+            "username": "adam",
+            "content": "Send some to Khobar please 😭🍪",
+            "replies": 1,
+            "likes": 14
+          },
           {
             "username": "Ziyad",
-            "content": "This could be a wallpaper honestly",
+            "content": "These look way too good to be real",
             "replies": 0,
             "likes": 9
           }
@@ -99,20 +120,20 @@
       {
         "id": "post_jafar_4",
         "username": "jafar",
-        "media": "pfp6.png",
-        "description": "Sunflower fields always make me smile 🌻",
+        "media": "sunFlower.jpg",
+        "description": "Up close with a sunflower 🌻 Never gets old. There's something peaceful about getting this close to nature",
         "likes": 511,
         "createdAt": "2025-11-15T10:00:00.000Z",
         "comments": [
           {
             "username": "Huda",
-            "content": "So beautiful! Nature is art 🌿",
+            "content": "That texture and color though 😍 nature is undefeated",
             "replies": 2,
             "likes": 37
           },
           {
             "username": "Abdullah",
-            "content": "Jealous of this view 😂",
+            "content": "Jealous of this moment honestly 🌿",
             "replies": 1,
             "likes": 20
           }
@@ -121,12 +142,17 @@
       {
         "id": "post_jafar_5",
         "username": "jafar",
-        "media": "pfp3.png",
-        "description": "Carpet shopping in the old market 🛒 These patterns are insane.",
+        "media": "carbet.jpg",
+        "description": "This handmade wool carpet with an old Arabic stone house in the background 🏡 The craftsmanship here is generational. You don't find this anymore",
         "likes": 98,
         "createdAt": "2025-11-20T14:30:00.000Z",
         "comments": [
-          { "username": "Hussam", "content": "Did you cop one?? 👀", "replies": 1, "likes": 8 }
+          {
+            "username": "Hussam",
+            "content": "The texture against that stone wall is a perfect frame 📷",
+            "replies": 1,
+            "likes": 8
+          }
         ]
       }
     ]
@@ -136,27 +162,28 @@
     "phoneNumber": "5512348765",
     "email": "hussam@mail.com",
     "password": "hussam123",
-    "pfpUrl": "pfp2.png",
+    "pfpUrl": "snowflake.webp",
     "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
     "dateOfBirth": "1998-03-22T00:00:00.000Z",
     "gender": "M",
     "city": "Riyadh",
+    "stories": ["snowflake.webp", "desert.jpg", "sunnyDay.jpg", "bubbles.jpg", "carbet.jpg"],
     "followers": [
       {
         "username": "jafar",
-        "pfpUrl": "pfp3.png",
+        "pfpUrl": "cookie.jpg",
         "bio": "Coffee lover ☕ | Traveler 🌍 | Building things one day at a time",
         "city": "Medina"
       },
       {
         "username": "Feras",
-        "pfpUrl": "pfp5.png",
+        "pfpUrl": "sunFlower.jpg",
         "bio": "Just vibing 🎧 | CS student | Gamer by night",
         "city": "Mecca"
       },
       {
         "username": "Abdullah",
-        "pfpUrl": "pfp2.png",
+        "pfpUrl": "defaultAvatar.jpg",
         "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
         "city": "Medina"
       }
@@ -164,25 +191,25 @@
     "following": [
       {
         "username": "jafar",
-        "pfpUrl": "pfp3.png",
+        "pfpUrl": "cookie.jpg",
         "bio": "Coffee lover ☕ | Traveler 🌍 | Building things one day at a time",
         "city": "Medina"
       },
       {
         "username": "Ziyad",
-        "pfpUrl": "pfp6.png",
+        "pfpUrl": "cookie.jpg",
         "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
         "city": "Dubai"
       },
       {
         "username": "Kevin",
-        "pfpUrl": "pfp4.png",
+        "pfpUrl": "defaultAvatar.jpg",
         "bio": "Football ⚽ | Fitness 💪 | Al-Hilal fan till I die 💙",
         "city": "Riyadh"
       },
       {
         "username": "adam",
-        "pfpUrl": "pfp2.png",
+        "pfpUrl": "bubbles.jpg",
         "bio": "🎨 Digital artist | Turning ideas into pixels | Open for commissions",
         "city": "Khobar"
       }
@@ -191,21 +218,26 @@
       {
         "id": "post_hussam_1",
         "username": "Hussam",
-        "media": "logo1.png",
-        "description": "Golden hour in the desert never gets old 📷 #Photography",
+        "media": "snowflake.webp",
+        "description": "Zoomed all the way in on a single snowflake ❄️ Every one of these is unique. Nature's most underrated architect.",
         "likes": 4502,
         "createdAt": "2025-10-18T17:30:00.000Z",
         "comments": [
-          { "username": "jafar", "content": "Your best shot yet 🔥", "replies": 3, "likes": 120 },
+          {
+            "username": "jafar",
+            "content": "This is genuinely one of the most beautiful shots I've ever seen 🔥",
+            "replies": 3,
+            "likes": 120
+          },
           {
             "username": "Ziyad",
-            "content": "Incredible composition bro",
+            "content": "The symmetry is unreal. How did you even get this close?",
             "replies": 2,
             "likes": 95
           },
           {
             "username": "Abdullah",
-            "content": "The colors are everything 😍",
+            "content": "Bro this looks like a sci-fi movie prop 😍",
             "replies": 1,
             "likes": 44
           }
@@ -214,20 +246,20 @@
       {
         "id": "post_hussam_2",
         "username": "Hussam",
-        "media": "pfp2.png",
-        "description": "Morning light is a different kind of magic ✨",
+        "media": "sunnyDay.jpg",
+        "description": "A sunflower in a field with sunglasses on ☀️😎 I didn't plan this shot but it found me. The best ones always do.",
         "likes": 2100,
         "createdAt": "2025-10-25T07:00:00.000Z",
         "comments": [
           {
             "username": "Huda",
-            "content": "I could stare at this all day 😌",
+            "content": "This flower said sun's out shades out 😂 love it",
             "replies": 1,
             "likes": 55
           },
           {
             "username": "Feras",
-            "content": "Wake me up at this time challenge 😭",
+            "content": "Most stylish thing I've seen all week 🌻",
             "replies": 0,
             "likes": 31
           }
@@ -236,14 +268,14 @@
       {
         "id": "post_hussam_3",
         "username": "Hussam",
-        "media": "pfp5.png",
-        "description": "Texture and pattern study 👁️ Found this in the old souk.",
+        "media": "bubbles.jpg",
+        "description": "Underwater bubbles 🫧 Shot this on a dive last week. There's a whole silent world down there.",
         "likes": 88,
         "createdAt": "2025-11-02T12:00:00.000Z",
         "comments": [
           {
             "username": "adam",
-            "content": "Love the framing on this one",
+            "content": "The depth and light in this is insane. What lens?",
             "replies": 0,
             "likes": 7
           }
@@ -256,40 +288,41 @@
     "phoneNumber": "5598761234",
     "email": "huda@mail.com",
     "password": "huda456",
-    "pfpUrl": "pfp6.png",
+    "pfpUrl": "carbet.jpg",
     "bio": "Interior designer 🏡 | Bringing spaces to life | DM for collabs",
     "dateOfBirth": "1993-11-05T00:00:00.000Z",
     "gender": "F",
     "city": "Jeddah",
     "accountType": "business",
+    "stories": ["carbet.jpg", "sunFlower.jpg", "cookie.jpg", "bubbles.jpg", "sunnyDay.jpg"],
     "followers": [
       {
         "username": "jafar",
-        "pfpUrl": "pfp3.png",
+        "pfpUrl": "cookie.jpg",
         "bio": "Coffee lover ☕ | Traveler 🌍 | Building things one day at a time",
         "city": "Medina"
       },
       {
         "username": "Hussam",
-        "pfpUrl": "pfp2.png",
+        "pfpUrl": "snowflake.webp",
         "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
         "city": "Riyadh"
       },
       {
         "username": "Kevin",
-        "pfpUrl": "pfp4.png",
+        "pfpUrl": "defaultAvatar.jpg",
         "bio": "Football ⚽ | Fitness 💪 | Al-Hilal fan till I die 💙",
         "city": "Riyadh"
       },
       {
         "username": "Abdullah",
-        "pfpUrl": "pfp2.png",
+        "pfpUrl": "defaultAvatar.jpg",
         "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
         "city": "Medina"
       },
       {
         "username": "Ziyad",
-        "pfpUrl": "pfp6.png",
+        "pfpUrl": "cookie.jpg",
         "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
         "city": "Dubai"
       }
@@ -297,13 +330,13 @@
     "following": [
       {
         "username": "Ziyad",
-        "pfpUrl": "pfp6.png",
+        "pfpUrl": "cookie.jpg",
         "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
         "city": "Dubai"
       },
       {
         "username": "adam",
-        "pfpUrl": "pfp2.png",
+        "pfpUrl": "bubbles.jpg",
         "bio": "🎨 Digital artist | Turning ideas into pixels | Open for commissions",
         "city": "Khobar"
       }
@@ -312,32 +345,32 @@
       {
         "id": "post_huda_1",
         "username": "Huda",
-        "media": "logo3.png",
-        "description": "New project reveal 🏡 Went for warm earthy tones this time. Thoughts?",
+        "media": "carbet.jpg",
+        "description": "New project reveal 🏡 Featured this handmade wool carpet against the original Arabic stone wall — the client wanted old soul energy and I think we nailed it. Thoughts?",
         "likes": 9800,
         "createdAt": "2025-10-05T11:00:00.000Z",
         "comments": [
           {
             "username": "jafar",
-            "content": "This is absolutely gorgeous 😍",
+            "content": "The carpet against that stone wall is absolutely perfect 😍 generational taste",
             "replies": 2,
             "likes": 310
           },
           {
             "username": "Ziyad",
-            "content": "DM incoming for a project 😂",
+            "content": "DM incoming for a project 😂 seriously though this is stunning",
             "replies": 1,
             "likes": 275
           },
           {
             "username": "Abdullah",
-            "content": "Can you design my room please 🙏",
+            "content": "Can you design my room please 🙏 this is everything",
             "replies": 3,
             "likes": 190
           },
           {
             "username": "Kevin",
-            "content": "The texture choice is *chef's kiss*",
+            "content": "The texture and warmth in this room is unreal *chef's kiss*",
             "replies": 0,
             "likes": 145
           }
@@ -346,26 +379,26 @@
       {
         "id": "post_huda_2",
         "username": "Huda",
-        "media": "pfp3.png",
-        "description": "Adding life to spaces with plants 🌿 Never underestimate greenery in your home.",
+        "media": "sunFlower.jpg",
+        "description": "A close-up sunflower as my mood board starter for this week's project 🌻 This color palette — warm yellow, earthy brown center — is going straight into a living room concept",
         "likes": 7420,
         "createdAt": "2025-10-12T09:30:00.000Z",
         "comments": [
           {
             "username": "Hussam",
-            "content": "The photography here is also top tier 📷",
+            "content": "Using nature as a mood board is so underrated 📷 brilliant approach",
             "replies": 2,
             "likes": 200
           },
           {
             "username": "adam",
-            "content": "Sold. I'm buying plants tomorrow 😂",
+            "content": "That color palette would look insane on a feature wall 🎨",
             "replies": 1,
             "likes": 180
           },
           {
             "username": "Feras",
-            "content": "Interior goals honestly 🔥",
+            "content": "Interior goals honestly 🔥 never thought a flower could inspire a room",
             "replies": 0,
             "likes": 95
           }
@@ -374,20 +407,20 @@
       {
         "id": "post_huda_3",
         "username": "Huda",
-        "media": "pfp6.png",
-        "description": "Natural light is every designer's best friend ☀️",
+        "media": "sunnyDay.jpg",
+        "description": "Even flowers dress for the occasion ☀️😎 Spotted this sunflower in sunglasses and honestly it inspired today's client brief — bold, cheerful, unapologetic design",
         "likes": 6100,
         "createdAt": "2025-10-20T13:00:00.000Z",
         "comments": [
           {
             "username": "jafar",
-            "content": "This would be a dream office space",
+            "content": "Only Huda can turn a meme flower into design inspo 😂🌻",
             "replies": 1,
             "likes": 155
           },
           {
             "username": "Ziyad",
-            "content": "Productivity would be immense here 💻",
+            "content": "Bold and cheerful — that's the brief I'd give you too 💻",
             "replies": 2,
             "likes": 130
           }
@@ -400,21 +433,22 @@
     "phoneNumber": "5571239876",
     "email": "feras@mail.com",
     "password": "feras789",
-    "pfpUrl": "pfp5.png",
+    "pfpUrl": "sunFlower.jpg",
     "bio": "Just vibing 🎧 | CS student | Gamer by night",
     "dateOfBirth": "2001-07-30T00:00:00.000Z",
     "gender": "M",
     "city": "Mecca",
+    "stories": ["bubbles.jpg", "desert.jpg", "sunnyDay.jpg", "cookie.jpg", "carbet.jpg"],
     "followers": [
       {
         "username": "adam",
-        "pfpUrl": "pfp2.png",
+        "pfpUrl": "bubbles.jpg",
         "bio": "🎨 Digital artist | Turning ideas into pixels | Open for commissions",
         "city": "Khobar"
       },
       {
         "username": "Kevin",
-        "pfpUrl": "pfp4.png",
+        "pfpUrl": "defaultAvatar.jpg",
         "bio": "Football ⚽ | Fitness 💪 | Al-Hilal fan till I die 💙",
         "city": "Riyadh"
       }
@@ -422,25 +456,25 @@
     "following": [
       {
         "username": "Hussam",
-        "pfpUrl": "pfp2.png",
+        "pfpUrl": "snowflake.webp",
         "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
         "city": "Riyadh"
       },
       {
         "username": "Huda",
-        "pfpUrl": "pfp6.png",
+        "pfpUrl": "carbet.jpg",
         "bio": "Interior designer 🏡 | Bringing spaces to life | DM for collabs",
         "city": "Jeddah"
       },
       {
         "username": "Abdullah",
-        "pfpUrl": "pfp2.png",
+        "pfpUrl": "defaultAvatar.jpg",
         "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
         "city": "Medina"
       },
       {
         "username": "Ziyad",
-        "pfpUrl": "pfp6.png",
+        "pfpUrl": "cookie.jpg",
         "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
         "city": "Dubai"
       }
@@ -449,20 +483,20 @@
       {
         "id": "post_feras_1",
         "username": "Feras",
-        "media": "pfp2.png",
-        "description": "Studied outside today for a change ☀️ Highly recommend 10/10",
+        "media": "sunnyDay.jpg",
+        "description": "Studied outside today and found this sunflower wearing sunglasses ☀️😎 Honestly more productive than my entire semester indoors",
         "likes": 42,
         "createdAt": "2025-11-08T10:15:00.000Z",
         "comments": [
           {
             "username": "adam",
-            "content": "Bro actually touched grass 😭",
+            "content": "Bro actually touched grass AND found a fashionable flower 😭",
             "replies": 2,
             "likes": 15
           },
           {
             "username": "Kevin",
-            "content": "Who are you and what did you do to Feras",
+            "content": "Who are you and what did you do to Feras 💀",
             "replies": 1,
             "likes": 12
           }
@@ -471,20 +505,20 @@
       {
         "id": "post_feras_2",
         "username": "Feras",
-        "media": "pfp4.png",
-        "description": "Weekend escape 🏜️ No wifi, no stress. Just vibes.",
+        "media": "desert.jpg",
+        "description": "Weekend escape 🏜️ No wifi, no stress. Found this incredible hand-drawn artwork of an old mouse in the dunes — left by someone, found by me. Just vibes.",
         "likes": 178,
         "createdAt": "2025-11-14T16:00:00.000Z",
         "comments": [
           {
             "username": "jafar",
-            "content": "You're living my dream life rn",
+            "content": "That drawing in the middle of nowhere is so mysterious 😮 you're living my dream life",
             "replies": 1,
             "likes": 28
           },
           {
             "username": "Hussam",
-            "content": "The shot is actually not bad 👀",
+            "content": "The art composition is actually not bad 👀 keep it up",
             "replies": 0,
             "likes": 19
           }
@@ -493,20 +527,20 @@
       {
         "id": "post_feras_3",
         "username": "Feras",
-        "media": "pfp5.png",
-        "description": "My sister made me take this photo 🌻 She said post it so here you go",
+        "media": "sunFlower.jpg",
+        "description": "My sister made me take this close-up of a sunflower 🌻 She said post it so here you go. I will admit it came out clean",
         "likes": 210,
         "createdAt": "2025-11-18T12:30:00.000Z",
         "comments": [
           {
             "username": "Huda",
-            "content": "Tell your sister she has great taste 😂",
+            "content": "Your sister has great taste 😂 that macro shot is gorgeous",
             "replies": 2,
             "likes": 40
           },
           {
             "username": "Abdullah",
-            "content": "Bro actually got a good one accidentally",
+            "content": "Bro accidentally became a photographer 📷",
             "replies": 0,
             "likes": 22
           }
@@ -519,33 +553,34 @@
     "phoneNumber": "5544332211",
     "email": "kevin@mail.com",
     "password": "kevin321",
-    "pfpUrl": "pfp4.png",
+    "pfpUrl": "defaultAvatar.jpg",
     "bio": "Football ⚽ | Fitness 💪 | Al-Hilal fan till I die 💙💙",
     "dateOfBirth": "1997-01-18T00:00:00.000Z",
     "gender": "M",
     "city": "Riyadh",
+    "stories": ["sunnyDay.jpg", "desert.jpg", "cookie.jpg", "bubbles.jpg", "snowflake.webp"],
     "followers": [
       {
         "username": "jafar",
-        "pfpUrl": "pfp3.png",
+        "pfpUrl": "cookie.jpg",
         "bio": "Coffee lover ☕ | Traveler 🌍 | Building things one day at a time",
         "city": "Medina"
       },
       {
         "username": "Hussam",
-        "pfpUrl": "pfp2.png",
+        "pfpUrl": "snowflake.webp",
         "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
         "city": "Riyadh"
       },
       {
         "username": "Ziyad",
-        "pfpUrl": "pfp6.png",
+        "pfpUrl": "cookie.jpg",
         "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
         "city": "Dubai"
       },
       {
         "username": "adam",
-        "pfpUrl": "pfp2.png",
+        "pfpUrl": "bubbles.jpg",
         "bio": "🎨 Digital artist | Turning ideas into pixels | Open for commissions",
         "city": "Khobar"
       }
@@ -553,19 +588,19 @@
     "following": [
       {
         "username": "Huda",
-        "pfpUrl": "pfp6.png",
+        "pfpUrl": "carbet.jpg",
         "bio": "Interior designer 🏡 | Bringing spaces to life | DM for collabs",
         "city": "Jeddah"
       },
       {
         "username": "Abdullah",
-        "pfpUrl": "pfp2.png",
+        "pfpUrl": "defaultAvatar.jpg",
         "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
         "city": "Medina"
       },
       {
         "username": "Feras",
-        "pfpUrl": "pfp5.png",
+        "pfpUrl": "sunFlower.jpg",
         "bio": "Just vibing 🎧 | CS student | Gamer by night",
         "city": "Mecca"
       }
@@ -574,38 +609,48 @@
       {
         "id": "post_kevin_1",
         "username": "Kevin",
-        "media": "pfp2.png",
-        "description": "Match day in Riyadh 💙 Al-Hilal never disappoints! #Hilal",
+        "media": "sunnyDay.jpg",
+        "description": "Match day energy 💙 Spotted this sunflower in shades outside the stadium and it felt like a sign. Al-Hilal never disappoints! #Hilal",
         "likes": 3200,
         "createdAt": "2025-10-22T20:00:00.000Z",
         "comments": [
-          { "username": "jafar", "content": "LFG!! 💙💙", "replies": 1, "likes": 88 },
+          {
+            "username": "jafar",
+            "content": "LFG!! 💙💙 the flower called it",
+            "replies": 1,
+            "likes": 88
+          },
           {
             "username": "Hussam",
-            "content": "Atmosphere must've been insane",
+            "content": "Atmosphere must've been insane 🔥",
             "replies": 2,
             "likes": 64
           },
-          { "username": "Feras", "content": "I was there too bro 🔥", "replies": 3, "likes": 55 }
+          {
+            "username": "Feras",
+            "content": "I was there too bro 🔥 felt every second",
+            "replies": 3,
+            "likes": 55
+          }
         ]
       },
       {
         "id": "post_kevin_2",
         "username": "Kevin",
-        "media": "pfp3.png",
-        "description": "Morning run at 5am hits different when the view is like this 🏃‍♂️",
+        "media": "desert.jpg",
+        "description": "Morning run at 5am 🏃‍♂️ Came across this hand-drawn piece of an old mouse in the desert on the trail. Someone left art in the wild and I'm obsessed with it",
         "likes": 1540,
         "createdAt": "2025-10-28T05:30:00.000Z",
         "comments": [
           {
             "username": "adam",
-            "content": "Respect for that 5am energy 💪",
+            "content": "Art in the wild during a 5am run?? You're living a whole movie 😭💪",
             "replies": 0,
             "likes": 42
           },
           {
             "username": "Abdullah",
-            "content": "Not me struggling at 8am 😭",
+            "content": "Not me struggling to get up at 8am while you're finding desert art 😭",
             "replies": 1,
             "likes": 35
           }
@@ -614,18 +659,23 @@
       {
         "id": "post_kevin_3",
         "username": "Kevin",
-        "media": "pfp6.png",
-        "description": "Rain in Riyadh is a whole event 🌧️ Everyone loses their minds lol",
+        "media": "cookie.jpg",
+        "description": "Rain day in Riyadh means baking 🌧️🍪 Made chocolate chip cookies and everyone in the building could smell it. Rain in Riyadh is a whole event lol",
         "likes": 780,
         "createdAt": "2025-11-03T18:00:00.000Z",
         "comments": [
           {
             "username": "Ziyad",
-            "content": "Riyadh people seeing one drop of rain 😂",
+            "content": "Riyadh people see one drop of rain and start baking 😂 respect though",
             "replies": 2,
             "likes": 110
           },
-          { "username": "jafar", "content": "Same in Medina ngl 💀", "replies": 1, "likes": 75 }
+          {
+            "username": "jafar",
+            "content": "Same in Medina ngl 💀 cookies are mandatory when it rains",
+            "replies": 1,
+            "likes": 75
+          }
         ]
       }
     ]
@@ -635,21 +685,22 @@
     "phoneNumber": "5566778899",
     "email": "abdullah@mail.com",
     "password": "abd2024",
-    "pfpUrl": "pfp2.png",
+    "pfpUrl": "defaultAvatar.jpg",
     "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
     "dateOfBirth": "1999-09-09T00:00:00.000Z",
     "gender": "M",
     "city": "Medina",
+    "stories": ["cookie.jpg", "sunFlower.jpg", "desert.jpg", "carbet.jpg", "bubbles.jpg"],
     "followers": [
       {
         "username": "Feras",
-        "pfpUrl": "pfp5.png",
+        "pfpUrl": "sunFlower.jpg",
         "bio": "Just vibing 🎧 | CS student | Gamer by night",
         "city": "Mecca"
       },
       {
         "username": "Kevin",
-        "pfpUrl": "pfp4.png",
+        "pfpUrl": "defaultAvatar.jpg",
         "bio": "Football ⚽ | Fitness 💪 | Al-Hilal fan till I die 💙",
         "city": "Riyadh"
       }
@@ -657,25 +708,25 @@
     "following": [
       {
         "username": "jafar",
-        "pfpUrl": "pfp3.png",
+        "pfpUrl": "cookie.jpg",
         "bio": "Coffee lover ☕ | Traveler 🌍 | Building things one day at a time",
         "city": "Medina"
       },
       {
         "username": "Hussam",
-        "pfpUrl": "pfp2.png",
+        "pfpUrl": "snowflake.webp",
         "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
         "city": "Riyadh"
       },
       {
         "username": "Huda",
-        "pfpUrl": "pfp6.png",
+        "pfpUrl": "carbet.jpg",
         "bio": "Interior designer 🏡 | Bringing spaces to life | DM for collabs",
         "city": "Jeddah"
       },
       {
         "username": "Ziyad",
-        "pfpUrl": "pfp6.png",
+        "pfpUrl": "cookie.jpg",
         "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
         "city": "Dubai"
       }
@@ -684,26 +735,26 @@
       {
         "id": "post_abdullah_1",
         "username": "Abdullah",
-        "media": "pfp4.png",
-        "description": "Homemade kabsa today 🍚 Recipe in bio. You're welcome.",
+        "media": "cookie.jpg",
+        "description": "Homemade chocolate chip cookies fresh out the oven 🍪 Recipe in bio. The secret ingredient is patience — and a lot of butter. You're welcome.",
         "likes": 120,
         "createdAt": "2025-11-06T13:00:00.000Z",
         "comments": [
           {
             "username": "jafar",
-            "content": "Bro send me some please 😭",
+            "content": "Bro the chocolate chips are calling my name 😭 send some to Medina",
             "replies": 1,
             "likes": 22
           },
           {
             "username": "Kevin",
-            "content": "The recipe BETTER be in bio 👀",
+            "content": "The recipe BETTER be in bio 👀 I'll make these tonight",
             "replies": 0,
             "likes": 18
           },
           {
             "username": "Feras",
-            "content": "This looks too good to be homemade ngl",
+            "content": "These look too good to be homemade ngl 😩🍪",
             "replies": 1,
             "likes": 14
           }
@@ -712,20 +763,20 @@
       {
         "id": "post_abdullah_2",
         "username": "Abdullah",
-        "media": "pfp2.png",
-        "description": "Quick trip outside Medina 🏜️ The sky was unreal today.",
+        "media": "desert.jpg",
+        "description": "Quick trip outside Medina 🏜️ Found this beautiful hand-drawn piece of an old mouse someone left in the dunes. The sky was wild. The art was wilder.",
         "likes": 340,
         "createdAt": "2025-11-11T16:45:00.000Z",
         "comments": [
           {
             "username": "Hussam",
-            "content": "Nice shot! Keep practicing 📷",
+            "content": "Nice find! The drawing has real character — keep exploring 📷",
             "replies": 1,
             "likes": 30
           },
           {
             "username": "adam",
-            "content": "The sky gradient is so clean",
+            "content": "Someone left their art in the desert?? That's so poetic 🎨",
             "replies": 0,
             "likes": 17
           }
@@ -738,135 +789,96 @@
     "phoneNumber": "5511223344",
     "email": "ziyad@mail.com",
     "password": "ziyad007",
-    "pfpUrl": "pfp6.png",
+    "pfpUrl": "cookie.jpg",
     "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
     "dateOfBirth": "1990-04-12T00:00:00.000Z",
     "gender": "M",
     "city": "Dubai",
-    "accountType": "business",
-    "followers": [
-      {
-        "username": "jafar",
-        "pfpUrl": "pfp3.png",
-        "bio": "Coffee lover ☕ | Traveler 🌍 | Building things one day at a time",
-        "city": "Medina"
-      },
-      {
-        "username": "Hussam",
-        "pfpUrl": "pfp2.png",
-        "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
-        "city": "Riyadh"
-      },
-      {
-        "username": "Huda",
-        "pfpUrl": "pfp6.png",
-        "bio": "Interior designer 🏡 | Bringing spaces to life | DM for collabs",
-        "city": "Jeddah"
-      },
-      {
-        "username": "Feras",
-        "pfpUrl": "pfp5.png",
-        "bio": "Just vibing 🎧 | CS student | Gamer by night",
-        "city": "Mecca"
-      },
-      {
-        "username": "Kevin",
-        "pfpUrl": "pfp4.png",
-        "bio": "Football ⚽ | Fitness 💪 | Al-Hilal fan till I die 💙",
-        "city": "Riyadh"
-      },
-      {
-        "username": "Abdullah",
-        "pfpUrl": "pfp2.png",
-        "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
-        "city": "Medina"
-      },
-      {
-        "username": "adam",
-        "pfpUrl": "pfp2.png",
-        "bio": "🎨 Digital artist | Turning ideas into pixels | Open for commissions",
-        "city": "Khobar"
-      }
+    "stories": [
+      "a_cosmic_hourglass_made_of_glowing_teal_energy_where_the_top_half_is_filled.png",
+      "a_cinematic_close_up_of_a_single_glowing_teal_lunar_tear_flower_whose_center.png",
+      "an_intricate_glowing_teal_lunar_tear_mandala_made_of_cosmic_threads_flower.png",
+      "a_magical_celestial_well_filled_with_liquid_light_with_lunar_tear_flowers.png",
+      "a_field_of_glowing_teal_lunar_tear_flowers_on_a_dark_crystal_moon_with_a_giant_planet_behind.png"
     ],
-    "following": [
-      {
-        "username": "Huda",
-        "pfpUrl": "pfp6.png",
-        "bio": "Interior designer 🏡 | Bringing spaces to life | DM for collabs",
-        "city": "Jeddah"
-      }
-    ],
+    "followers": [],
+    "following": [],
     "posts": [
       {
         "id": "post_ziyad_1",
         "username": "Ziyad",
-        "media": "pfp5.png",
-        "description": "AI is not replacing you — someone using AI is. Start learning now. 🤖 #Tech #AI",
-        "likes": 45000,
-        "createdAt": "2025-10-10T09:00:00.000Z",
+        "media": "a_cinematic_close_up_of_a_single_glowing_teal_lunar_tear_flower_whose_center.png",
+        "description": "A single glowing lunar tear flower — teal light bleeding from its center like a slow pulse 🌸 Some things feel too beautiful to be data. But maybe beauty is just the best compression algorithm.",
+        "likes": 3100,
+        "createdAt": "2025-10-14T21:00:00.000Z",
         "comments": [
-          { "username": "jafar", "content": "This hit different 💯", "replies": 5, "likes": 980 },
           {
-            "username": "Hussam",
-            "content": "Sharing this everywhere",
-            "replies": 3,
-            "likes": 740
-          },
-          {
-            "username": "Feras",
-            "content": "Okay okay I'll start that course 😭",
+            "username": "adam",
+            "content": "The glow on the center 😭 this is absolutely otherworldly 🌿✨",
             "replies": 2,
-            "likes": 610
+            "likes": 210
           },
           {
-            "username": "Abdullah",
-            "content": "Needed to hear this today fr",
+            "username": "Huda",
+            "content": "I would put this on an entire feature wall and never change it",
             "replies": 1,
-            "likes": 430
+            "likes": 175
           }
         ]
       },
       {
         "id": "post_ziyad_2",
         "username": "Ziyad",
-        "media": "pfp3.png",
-        "description": "Dubai → Riyadh road trip 🚗 Some thoughts on building in the Middle East 🧵",
-        "likes": 32000,
-        "createdAt": "2025-10-17T14:00:00.000Z",
+        "media": "a_cosmic_hourglass_made_of_glowing_teal_energy_where_the_top_half_is_filled.png",
+        "description": "A cosmic hourglass — teal energy pouring from one universe into another ⏳ Time isn't running out. It's just changing form. We're all mid-pour.",
+        "likes": 4800,
+        "createdAt": "2025-10-21T18:30:00.000Z",
         "comments": [
           {
-            "username": "Kevin",
-            "content": "The thread was incredible, more please!",
-            "replies": 2,
-            "likes": 520
+            "username": "jafar",
+            "content": "\"We're all mid-pour\" bro you really said that 🤯 saving this forever",
+            "replies": 3,
+            "likes": 340
           },
           {
-            "username": "Huda",
-            "content": "The entrepreneurship ecosystem here is growing so fast",
-            "replies": 3,
-            "likes": 480
+            "username": "Hussam",
+            "content": "The energy flow in this image is insane to look at 👁️",
+            "replies": 1,
+            "likes": 260
+          },
+          {
+            "username": "Kevin",
+            "content": "This is going on my lockscreen immediately 💙",
+            "replies": 0,
+            "likes": 190
           }
         ]
       },
       {
         "id": "post_ziyad_3",
         "username": "Ziyad",
-        "media": "pfp2.png",
-        "description": "Even on grey days, the grind doesn't stop ☁️💻",
-        "likes": 28000,
-        "createdAt": "2025-10-24T11:30:00.000Z",
+        "media": "a_field_of_glowing_teal_lunar_tear_flowers_on_a_dark_crystal_moon_with_a_giant_planet_behind.png",
+        "description": "A field of lunar tear flowers on a dark crystal moon, a giant planet looming behind 🌕🪐 Imagine standing there. Silence so complete you could hear yourself think for the first time.",
+        "likes": 5600,
+        "createdAt": "2025-10-30T22:00:00.000Z",
         "comments": [
           {
             "username": "adam",
-            "content": "This is the content I follow you for 🙌",
-            "replies": 1,
-            "likes": 390
+            "content": "The scale of that planet behind the flowers 😩 I need a print of this NOW",
+            "replies": 2,
+            "likes": 420
           },
           {
-            "username": "jafar",
-            "content": "Motivational and aesthetic? Legend move",
-            "replies": 2,
-            "likes": 310
+            "username": "Huda",
+            "content": "The color palette is a designer's dream — dark crystal + teal glow 🤌",
+            "replies": 3,
+            "likes": 380
+          },
+          {
+            "username": "Abdullah",
+            "content": "Bro I'd retire to that moon immediately 😭🌕",
+            "replies": 1,
+            "likes": 290
           }
         ]
       }
@@ -877,27 +889,34 @@
     "phoneNumber": "5599887766",
     "email": "adam@mail.com",
     "password": "adam2025",
-    "pfpUrl": "pfp2.png",
+    "pfpUrl": "bubbles.jpg",
     "bio": "🎨 Digital artist | Turning ideas into pixels | Open for commissions",
     "dateOfBirth": "2000-12-25T00:00:00.000Z",
     "gender": "M",
     "city": "Khobar",
+    "stories": [
+      "a_magical_lunar_tear_wreath_floating_in_a_void_of_deep_blue_and_teal_nebula.png",
+      "an_artistic_close_up_of_a_single_lunar_tear_flower_its_center_holding_a_tiny_galaxy.png",
+      "a_futuristic_robotic_scout_drone_gently_pollinating_a_glowing_teal_lunar_tear.png",
+      "an_ethereal_lunar_tear_wreath_woven_from_cosmic_vines_stardust_and_glowing_teal.png",
+      "a_magical_lunar_tear_flower_blooming_in_deep_space_glowing_with_bioluminescent.png"
+    ],
     "followers": [
       {
         "username": "jafar",
-        "pfpUrl": "pfp3.png",
+        "pfpUrl": "cookie.jpg",
         "bio": "Coffee lover ☕ | Traveler 🌍 | Building things one day at a time",
         "city": "Medina"
       },
       {
         "username": "Hussam",
-        "pfpUrl": "pfp2.png",
+        "pfpUrl": "snowflake.webp",
         "bio": "Photographer 📷 | Riyadh → Everywhere | Moments over things",
         "city": "Riyadh"
       },
       {
         "username": "Kevin",
-        "pfpUrl": "pfp4.png",
+        "pfpUrl": "defaultAvatar.jpg",
         "bio": "Football ⚽ | Fitness 💪 | Al-Hilal fan till I die 💙",
         "city": "Riyadh"
       }
@@ -905,25 +924,25 @@
     "following": [
       {
         "username": "Huda",
-        "pfpUrl": "pfp6.png",
+        "pfpUrl": "carbet.jpg",
         "bio": "Interior designer 🏡 | Bringing spaces to life | DM for collabs",
         "city": "Jeddah"
       },
       {
         "username": "Feras",
-        "pfpUrl": "pfp5.png",
+        "pfpUrl": "sunFlower.jpg",
         "bio": "Just vibing 🎧 | CS student | Gamer by night",
         "city": "Mecca"
       },
       {
         "username": "Ziyad",
-        "pfpUrl": "pfp6.png",
+        "pfpUrl": "cookie.jpg",
         "bio": "Tech & AI enthusiast 🤖 | Speaker | Opinions are my own",
         "city": "Dubai"
       },
       {
         "username": "Abdullah",
-        "pfpUrl": "pfp2.png",
+        "pfpUrl": "defaultAvatar.jpg",
         "bio": "Foodie 🍕 | Amateur chef | Medina local 🕌",
         "city": "Medina"
       }
@@ -932,26 +951,26 @@
       {
         "id": "post_adam_1",
         "username": "adam",
-        "media": "logo2.png",
-        "description": "New digital piece 🌻 Took 6 hours but worth every minute. DM for prints!",
+        "media": "an_artistic_close_up_of_a_single_lunar_tear_flower_its_center_holding_a_tiny_galaxy.png",
+        "description": "Close-up of a lunar tear flower — its center holds an entire galaxy 🌸🌌 Took 6 hours but I needed to get the bioluminescence right. The universe lives inside the smallest things. DM for prints!",
         "likes": 1100,
         "createdAt": "2025-11-04T20:00:00.000Z",
         "comments": [
           {
             "username": "Huda",
-            "content": "The detail work here is insane 😍",
+            "content": "A galaxy inside a flower center 😍 the concept AND execution here are insane",
             "replies": 2,
             "likes": 65
           },
           {
             "username": "jafar",
-            "content": "You're genuinely talented bro 🔥",
+            "content": "You're genuinely one of a kind bro 🔥 this hits different",
             "replies": 1,
             "likes": 50
           },
           {
             "username": "Feras",
-            "content": "How long have you been doing art?",
+            "content": "How long have you been doing this style? The glow is so clean",
             "replies": 1,
             "likes": 30
           }
@@ -960,20 +979,20 @@
       {
         "id": "post_adam_2",
         "username": "adam",
-        "media": "pfp6.png",
-        "description": "Desert landscapes are my new obsession 🏜️ Studying the light and texture.",
+        "media": "a_futuristic_robotic_scout_drone_gently_pollinating_a_glowing_teal_lunar_tear.png",
+        "description": "What if nature and machines weren't enemies? 🤖🌿 A robotic scout drone pollinating a glowing lunar tear flower. New series dropping. Desert landscapes got me thinking about survival, adaptation, and what comes next.",
         "likes": 2300,
         "createdAt": "2025-11-09T15:00:00.000Z",
         "comments": [
           {
             "username": "Hussam",
-            "content": "As a photographer I fully respect this 📷",
+            "content": "The tenderness in a robot pollinating a flower — bro you made me feel something 📷",
             "replies": 2,
             "likes": 88
           },
           {
             "username": "Ziyad",
-            "content": "The next piece better be a desert series",
+            "content": "This is the most thought-provoking piece I've seen all month. The series better continue 🤖",
             "replies": 1,
             "likes": 72
           }
@@ -982,22 +1001,78 @@
       {
         "id": "post_adam_3",
         "username": "adam",
-        "media": "pfp4.png",
-        "description": "Rain = art session 🎨 Something about the grey sky just unlocks creativity.",
+        "media": "a_magical_lunar_tear_wreath_floating_in_a_void_of_deep_blue_and_teal_nebula.png",
+        "description": "Rain outside = art session inside 🎨🌧️ A lunar tear wreath floating in a deep blue nebula void. Something about grey skies unlocks a different part of my brain. This one flowed.",
         "likes": 540,
         "createdAt": "2025-11-16T19:30:00.000Z",
         "comments": [
           {
             "username": "Kevin",
-            "content": "Rain does hit different creatively ngl",
+            "content": "Rain really does hit different creatively. This wreath piece is wild 🌀",
             "replies": 0,
             "likes": 25
           },
           {
             "username": "Abdullah",
-            "content": "Post the art when you're done! 👀",
+            "content": "Post the whole series when you're done!! 👀 each piece is better than the last",
             "replies": 1,
             "likes": 20
+          }
+        ]
+      },
+      {
+        "id": "post_adam_4",
+        "username": "adam",
+        "media": "an_intricate_glowing_teal_lunar_tear_mandala_made_of_cosmic_threads_flower.png",
+        "description": "Mandala made entirely of lunar tear flowers and cosmic threads 🌀✨ Sacred geometry meets deep space. This one is available as a limited print — link in bio.",
+        "likes": 3800,
+        "createdAt": "2025-11-21T16:00:00.000Z",
+        "comments": [
+          {
+            "username": "Huda",
+            "content": "I need this as a ceiling piece for a client project 😭 DM incoming",
+            "replies": 3,
+            "likes": 310
+          },
+          {
+            "username": "Ziyad",
+            "content": "The symmetry is almost meditative. Genuinely one of your best 🤯",
+            "replies": 2,
+            "likes": 270
+          },
+          {
+            "username": "jafar",
+            "content": "Bro you keep outdoing yourself 🔥 the threads look hand-stitched",
+            "replies": 1,
+            "likes": 190
+          }
+        ]
+      },
+      {
+        "id": "post_adam_5",
+        "username": "adam",
+        "media": "a_magical_lunar_tear_flower_blooming_in_deep_space_glowing_with_bioluminescent.png",
+        "description": "A lunar tear flower blooming alone in deep space 🌸🚀 Bioluminescent and impossible and somehow more alive than anything. This piece started as a sketch during a sleepless night and became my favorite thing I've made.",
+        "likes": 4200,
+        "createdAt": "2025-11-26T23:00:00.000Z",
+        "comments": [
+          {
+            "username": "Hussam",
+            "content": "The loneliness of space + the warmth of that bloom. I felt this 📷💙",
+            "replies": 2,
+            "likes": 350
+          },
+          {
+            "username": "Feras",
+            "content": "Bro made me emotional over a digital flower. Talent is crazy 😭🌸",
+            "replies": 1,
+            "likes": 280
+          },
+          {
+            "username": "Kevin",
+            "content": "This is going straight to print. The best thing on my feed this month 💙",
+            "replies": 0,
+            "likes": 210
           }
         ]
       }
