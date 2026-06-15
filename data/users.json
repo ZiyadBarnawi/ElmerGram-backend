@@ -13,7 +13,7 @@
     "followers": [
       {
         "username": "Feras",
-        "pfpUrl": "sunFlower.jpg",
+        "pfpUrl": "sunnyDay.jpg",
         "bio": "Just vibing 🎧 | CS student | Gamer by night",
         "city": "Mecca"
       },
@@ -120,7 +120,7 @@
       {
         "id": "post_jafar_4",
         "username": "jafar",
-        "media": "sunFlower.jpg",
+        "media": "sunnyDay.jpg",
         "description": "Up close with a sunflower 🌻 Never gets old. There's something peaceful about getting this close to nature",
         "likes": 511,
         "createdAt": "2025-11-15T10:00:00.000Z",
@@ -177,7 +177,7 @@
       },
       {
         "username": "Feras",
-        "pfpUrl": "sunFlower.jpg",
+        "pfpUrl": "sunnyDay.jpg",
         "bio": "Just vibing 🎧 | CS student | Gamer by night",
         "city": "Mecca"
       },
@@ -294,7 +294,7 @@
     "gender": "F",
     "city": "Jeddah",
     "accountType": "business",
-    "stories": ["carbet.jpg", "sunFlower.jpg", "cookie.jpg", "bubbles.jpg", "sunnyDay.jpg"],
+    "stories": ["carbet.jpg", "sunnyDay.jpg", "cookie.jpg", "bubbles.jpg", "sunnyDay.jpg"],
     "followers": [
       {
         "username": "jafar",
@@ -379,7 +379,7 @@
       {
         "id": "post_huda_2",
         "username": "Huda",
-        "media": "sunFlower.jpg",
+        "media": "sunnyDay.jpg",
         "description": "A close-up sunflower as my mood board starter for this week's project 🌻 This color palette — warm yellow, earthy brown center — is going straight into a living room concept",
         "likes": 7420,
         "createdAt": "2025-10-12T09:30:00.000Z",
@@ -433,7 +433,7 @@
     "phoneNumber": "5571239876",
     "email": "feras@mail.com",
     "password": "feras789",
-    "pfpUrl": "sunFlower.jpg",
+    "pfpUrl": "sunnyDay.jpg",
     "bio": "Just vibing 🎧 | CS student | Gamer by night",
     "dateOfBirth": "2001-07-30T00:00:00.000Z",
     "gender": "M",
@@ -527,7 +527,7 @@
       {
         "id": "post_feras_3",
         "username": "Feras",
-        "media": "sunFlower.jpg",
+        "media": "sunnyDay.jpg",
         "description": "My sister made me take this close-up of a sunflower 🌻 She said post it so here you go. I will admit it came out clean",
         "likes": 210,
         "createdAt": "2025-11-18T12:30:00.000Z",
@@ -600,7 +600,7 @@
       },
       {
         "username": "Feras",
-        "pfpUrl": "sunFlower.jpg",
+        "pfpUrl": "sunnyDay.jpg",
         "bio": "Just vibing 🎧 | CS student | Gamer by night",
         "city": "Mecca"
       }
@@ -690,11 +690,11 @@
     "dateOfBirth": "1999-09-09T00:00:00.000Z",
     "gender": "M",
     "city": "Medina",
-    "stories": ["cookie.jpg", "sunFlower.jpg", "desert.jpg", "carbet.jpg", "bubbles.jpg"],
+    "stories": ["cookie.jpg", "sunnyDay.jpg", "desert.jpg", "carbet.jpg", "bubbles.jpg"],
     "followers": [
       {
         "username": "Feras",
-        "pfpUrl": "sunFlower.jpg",
+        "pfpUrl": "sunnyDay.jpg",
         "bio": "Just vibing 🎧 | CS student | Gamer by night",
         "city": "Mecca"
       },
@@ -930,7 +930,7 @@
       },
       {
         "username": "Feras",
-        "pfpUrl": "sunFlower.jpg",
+        "pfpUrl": "sunnyDay.jpg",
         "bio": "Just vibing 🎧 | CS student | Gamer by night",
         "city": "Mecca"
       },

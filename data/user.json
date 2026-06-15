@@ -58,7 +58,7 @@
     },
     {
       "username": "Feras",
-      "pfpUrl": "sunFlower.jpg",
+      "pfpUrl": "sunnyDay.jpg",
       "bio": "Just vibing 🎧 | CS student | Gamer by night",
       "city": "Mecca",
       "accountType": "personal"
@@ -73,10 +73,10 @@
     { "media": "sunnyDay.jpg", "likes": 1203 },
     { "media": "desert.jpg", "likes": 874 },
     { "media": "rainnyCar.jpg", "likes": 302 },
-    { "media": "sunFlower.jpg", "likes": 511 },
+    { "media": "sunnyDay.jpg", "likes": 511 },
     { "media": "carbet.jpg", "likes": 98 },
     { "media": "rainnyCar.jpg", "likes": 430 },
-    { "media": "sunFlower.jpg", "likes": 760 },
+    { "media": "sunnyDay.jpg", "likes": 760 },
     { "media": "sunnyDay.jpg", "likes": 215 },
     { "media": "desert.jpg", "likes": 990 },
     { "media": "carbet.jpg", "likes": 133 }
